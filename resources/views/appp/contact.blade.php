@@ -21,8 +21,7 @@
         <div class="section-title">
             <h2>Drop us message for any query</h2>
             <div class="bar"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
+            <p>Our team of experts is ever ready to listen to your queries. Drop us a message now.</p>
         </div>
 
         <div class="row">
@@ -42,8 +41,8 @@
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <span>Email</span>
-                            <a href="#">luvion@email.com</a>
-                            <a href="#">fax@email.com</a>
+                            <a href="#">devisloans@email.com</a>
+                            <a href="#">support@devisloans.com</a>
                         </li>
 
                         <li>
@@ -60,12 +59,20 @@
 
             <div class="col-lg-7 col-md-12">
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form id="contactForm" action="/other_requests" method="post">
+                    @csrf
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" class="form-control" required
-                                        data-error="Please enter your name" placeholder="Name">
+                                    <input type="text" name="first_name" id="name" class="form-control" required
+                                        data-error="Please enter your name" placeholder="First Name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="last_name" id="name" class="form-control" required
+                                        data-error="Please enter your name" placeholder=" Last Name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -80,19 +87,13 @@
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" id="phone_number" required
+                                    <input type="text" name="phone" id="phone_number" required
                                         data-error="Please enter your number" class="form-control" placeholder="Phone">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
-                                        data-error="Please enter your subject" placeholder="Subject">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+                           
 
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">

@@ -381,7 +381,7 @@
                                 <div class="form-group">
                                     <label for="">Official ID (front)</label>
                                     <input class="form-control" name="id_card" type="file">
-                                    <p><small>Intl-Passport/National ID/School ID</small></p>
+                                    <p><small>Intl-Passport/National ID/Business ID</small></p>
                                 </div>
                             </div>
                             <!-- <div class="col-sm-12">
@@ -419,7 +419,7 @@
         <div class="timed-activities compact">
             <div class="timed-activity">
                 <div class="ta-date">
-                    <span>Brokers Message</span>
+                    <span>Admin Message</span>
                 </div>
 
                 <div class="ta-record-w">
@@ -432,8 +432,7 @@
                         {{$announcement->content}}
                    </p>
                    @endforeach
-                    <p class="small"><marquee>By signing up to ELIFESERIES, you agree that the information provided by you are correct to the best of your knowledge. Any 
-                    fake information could lead to account suspension and the inability to register in future.<marquee></p>
+                    <p class="small"><marquee>By signing up to Davisloans, you agree that Davisloans terms and conditions.<marquee></p>
                 </div>
             </div>
 

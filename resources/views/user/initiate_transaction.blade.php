@@ -34,7 +34,7 @@
                                 </option>
                                 @foreach($series as $series)
                                     <option value="{{$series->id}}">
-                                        {{$series->series_name}} : Amount (${{$series->amount}})
+                                        {{$series->series_name}} : Amount (NGN{{$series->amount}})
                                     </option>
                                 @endforeach
                                

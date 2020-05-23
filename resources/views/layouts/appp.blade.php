@@ -15,17 +15,17 @@
     <link rel=stylesheet href="frontend/css/odometer.min.css">
     <link rel=stylesheet href="frontend/css/style.css">
     <link rel=stylesheet href="frontend/css/responsive.css">
-    <title>Luvion - Online Loans</title>
+    <title>Devis - Online Loans</title>
     <link rel=icon type="image/png" href="frontend/img/favicon.png">
 </head>
 
 <body>
-    <div class=preloader>
+    <!-- <div class=preloader>
         <div class=loader>
             <div class=shadow></div>
             <div class=box></div>
         </div>
-    </div>
+    </div> -->
     <div class=navbar-area>
         <div class=luvion-responsive-nav>
             <div class=container>
@@ -41,20 +41,35 @@
                             src="frontend/img/logo.png" alt=logo> <img src="frontend/img/black-logo.png" alt=logo> </a>
                     <div class="collapse navbar-collapse mean-menu" id=navbarSupportedContent>
                         <ul class=navbar-nav>
-                            <li class=nav-item><a href="#" class=nav-link>Home</a>
-                               
+                            <li class=nav-item><a href="/" class=nav-link>Home</a>
+
                             </li>
                             <li class=nav-item><a href="/how_it_works" class=nav-link>How it Works</a></li>
                             <li class=nav-item><a href="/about" class=nav-link>About Us </a>
-                               
+
                             </li>
-                          
+
                             <li class=nav-item><a href="/plans" class=nav-link>Get a Loan</a></li>
-                           
-                           
+
+
                         </ul>
-                        <div class=others-options> <a href="/login" class=login-btn><i class=flaticon-user></i> Log
+                      
+                       
+                            @auth
+                            @if(Auth::user()->user_type == "user")
+                           
+                            <div class=others-options> <a href="/user_dashboard" class=login-btn><i class=flaticon-user></i> Dashboard</a> </div>
+                            @else
+                            
+                            <div class=others-options> <a href="/admin_dashboard" class=login-btn><i class=flaticon-user></i> Dashboard</a> </div>
+  
+                            @endif
+                            @else
+                            <div class=others-options> <a href="/login" class=login-btn><i class=flaticon-user></i> Log
                                 In</a> </div>
+                            @endauth
+                       
+                       
                     </div>
                 </nav>
             </div>
@@ -62,6 +77,15 @@
     </div>
 
     @yield("contents")
+    
+<section class=account-create-area>
+    <div class=container>
+        <div class=account-create-content>
+            <h2>Apply for a loan in minutes</h2>
+            <p>Get your Devis account today!</p><a href="#" class="btn btn-primary">Get Your Devis Account</a>
+        </div>
+    </div>
+</section>
 
     <footer class=footer-area>
         <div class=container>
@@ -69,8 +93,7 @@
                 <div class="col-lg-3 col-sm-6 col-md-6">
                     <div class=single-footer-widget>
                         <div class=logo><a href="#"><img src="frontend/img/black-logo.png" alt=logo></a>
-                            <p>Quis ipsum suspendisse ultrices gravida commodo. Risus commodo veliliee vel viverra
-                                maecenas accumsan lacus vel facilisis.</p>
+                            <p>Getting loans made easier. A community of people helping ourselves succeed in our hustle.</p>
                         </div>
                         <ul class=social-links>
                             <li><a href="#" target=_blank><i class="fab fa-facebook-f"></i></a></li>
@@ -96,7 +119,7 @@
                     <div class=single-footer-widget>
                         <h3>Support</h3>
                         <ul class=list>
-                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="/faq">FAQ's</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms & Condition</a></li>
                             <li><a href="#">Community</a></li>
@@ -109,7 +132,7 @@
                         <h3>Address</h3>
                         <ul class=footer-contact-info>
                             <li><span>Location:</span> 27 Division St, New York, NY 10002, USA</li>
-                            <li><span>Email:</span> <a href="#">luvion@gmail.com</a></li>
+                            <li><span>Email:</span> <a href="#">devisloans@gmail.com</a></li>
                             <li><span>Phone:</span> <a href="#">+ (321) 984 754</a></li>
                             <li><span>Fax:</span> <a href="#">+1-212-9876543</a></li>
                         </ul>
@@ -117,7 +140,7 @@
                 </div>
             </div>
             <div class=copyright-area>
-                <p>Copyright @2020 <a href="#">Luvion</a>. All rights reserved</p>
+                <p>Copyright @2020 <a href="#">Devis</a>. All rights reserved</p>
             </div>
         </div>
         <div class=map-image><img src="frontend/img/map.png" alt=map></div>

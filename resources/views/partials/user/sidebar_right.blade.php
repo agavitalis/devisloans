@@ -7,7 +7,7 @@
             <a class="element-action element-action-fold" href="#"><i class="os-icon os-icon-minus-circle"></i></a>
         </div>
         <h6 class="element-header">
-            Luvion Math Set
+            Devis Math Set
         </h6>
         <div class="element-box-tp">
             <form action="">

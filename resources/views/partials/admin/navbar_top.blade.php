@@ -6,7 +6,7 @@
             </div>
             <div class="fs-main-info">
                 <div class="fs-name">
-                    <span>Luvion Loans</span><strong></strong>
+                    <span>Devis Loans</span><strong></strong>
                 </div>
                 
             </div>

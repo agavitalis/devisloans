@@ -64,50 +64,6 @@ $(document).ready(function () {
 
             })
 
-
-
-
-            // $('.match_to_investor').click(function () {
-
-            //     //I got these data from the button
-            //     var course = $(this).data('course');
-            //     var semester = $(this).data('semester');
-            //     var session = $(this).data('session');
-            //     var level = $(this).data('level');
-            //     $.ajax({
-            //         type: 'post',
-            //         url: '/lecturer/l_courses',
-
-            //         data: {
-            //             '_token': $('input[name=_token]').val(),
-            //             'course':course,
-            //             'semester':semester,
-            //             'session':session,
-            //             'level': level,
-            //         },
-            //         dataType: 'JSON',
-            //         success: function (data) {
-            //             $('.dropdown-menu').html("");
-            //             data.forEach(element => {
-            //                 //check if he is a coordinator;
-            //                 if (element.coordinator == 1){
-            //                     var coordinator = "YES";
-            //                 }
-            //                 else{
-            //                     var coordinator = "NO";
-            //                 }
-
-            //                 $('.dropdown-menu').append("<li><a href='#'>" + element.lecturer_name + "  :" + element.lecturer_id + " Coordinator?:" + coordinator +"</a></li>")
-            //                 });
-            //                //console.log(data);
-
-            //             }
-
-            //         });
-            //     });
-
-
-
         }
     });
 });

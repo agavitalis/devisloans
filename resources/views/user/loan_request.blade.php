@@ -72,7 +72,7 @@
                                     
                                     </td>
                                     <td><button class="btn btn-sm btn-info view_pop" data-image="storage/uploads/{{$match->evidence}}" >View</button></td>
-                                    <td><button class="btn btn-sm btn-danger confirm_payment" data-id="{{$match->id}}">Confirm</button></td>
+                                    <td><button class="btn btn-sm btn-danger confirm_payment" data-investor="{{$match->investor}}" data-pro_investor="{{$match->pro_investor}}">Confirm</button></td>
                                 </tr>
                             @endforeach 
                             </tbody>
@@ -128,7 +128,8 @@
                                 <button class="btn btn-success" data-dismiss="modal" type="button"> No, Close</button>
                                 <button class="btn btn-danger" type="submit"> Yes Proceed</button>
                             </div>
-                            <input type="hidden" id="payment_id" name="payment_id" value="">
+                            <input type="hidden" id="pro_investor" name="pro_investor" value="">
+                            <input type="hidden" id="investor" name="investor" value="">
                             <input type="hidden" name="action" value="confirm-payment">
                         </form>
                     </div>

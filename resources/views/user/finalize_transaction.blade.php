@@ -58,7 +58,7 @@
                                     <td>{{$match->amount}}</td>
 
 
-                                    <td> <button class="btn btn-flat btn-success make-payments" type="button">Account
+                                    <td> <button class="btn btn-flat btn-success make-payments"  data-email="{{$match->email}}">Account
                                             Details</button></td>
                                     <td> <button class="btn btn-flat btn-info upload-pop"
                                             data-id="{{$match->id}}">Upload POP</button></td>
@@ -132,12 +132,7 @@
                             account details below
 
                         </div>
-                        <div class="form-group">
-                            <label for=""> Amount:</label>
-                            <input type="text" class="form-control" id="b_amount" readonly>
-                        </div>
-
-
+                        
                         <div class="form-group">
                             <label for="">Account Name</label>
                             <input type="text" class="form-control" id="b_name" readonly>
@@ -155,12 +150,12 @@
 
                         <div class="form-group">
                             <label for=""> Phone Number</label>
-                            <input type="text" class="form-control" id="l_ac" readonly>
+                            <input type="text" class="form-control" id="l_phone" readonly>
                         </div>
 
                         <div class="form-group">
                             <label for=""> Email</label>
-                            <input type="text" class="form-control" id="l_ac" readonly>
+                            <input type="text" class="form-control" id="l_email" readonly>
                         </div>
 
 

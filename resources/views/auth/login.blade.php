@@ -21,7 +21,7 @@
                                     </div>
 
                                     <h3>Welcome back</h3>
-                                    <p>New to Luvion? <a href="/register">Sign up</a></p>
+                                    <p>New to Devis? <a href="/register">Sign up</a></p>
 
                                     <form method="POST" action="{{ route('login') }}">
                                         @csrf
@@ -57,10 +57,10 @@
                                             <a href="#">Forgot Password?</a>
                                         </div>
 
-                                        <div class="connect-with-social">
+                                        <!-- <div class="connect-with-social">
                                             <button type="submit" class="facebook"><i class="fab fa-facebook-square"></i> Connect with Facebook</button>
                                             <button type="submit" class="google"><i class="fab fa-google"></i> Connect with Google</button>
-                                        </div>
+                                        </div> -->
                                     </form>
                                 </div>
                             </div>

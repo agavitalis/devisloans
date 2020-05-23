@@ -3,7 +3,7 @@
         -------------------->
         <div class="menu-mobile menu-activated-on-click color-scheme-dark">
      <div class="mm-logo-buttons-w">
-         <a class="mm-logo" href="#"><img src="dashboard/img/logo.png"><span>Luvion Dashboard</span></a>
+         <a class="mm-logo" href="#"><img src="dashboard/img/logo.png"><span>Devis Dashboard</span></a>
          <div class="mm-buttons">
              
              <div class="mobile-menu-trigger">

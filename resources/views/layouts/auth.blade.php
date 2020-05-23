@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="zxx">
-    
-<!-- Mirrored from templates.envytheme.com/luvion/default/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 May 2020 22:52:48 GMT -->
 <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -30,7 +28,7 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
 
-        <title>Luvion - Online Banking & Payment Processing HTML Template</title>
+        <title>Devisloans - Online Loans</title>
 
         <link rel="icon" type="image/png" href="{{asset('frontend/img/favicon.png')}}">
     </head>

@@ -18,7 +18,9 @@ $(document).ready( function() {
         
             $('.confirm_payment').click(function () {
         
-                $('#payment_id').val($(this).data("id"));
+                $('#pro_investor').val($(this).data("pro_investor"));
+                $('#investor').val($(this).data("investor"));
+
                 $('.pop-modal').addClass('hidden');
                 $('.confirm_payment-modal').removeClass('hidden');
                 

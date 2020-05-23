@@ -9,7 +9,7 @@
     <div class="container">
         <div class="page-title-content">
             <h2>About Us</h2>
-            <p>The Luvion story</p>
+            <p>The Devis story</p>
         </div>
     </div>
 </div>
@@ -22,13 +22,11 @@
             <div class="col-lg-6 col-md-12">
                 <div class="about-content">
                     <span>How we were founded</span>
-                    <h2>Easy, fee-free banking for entrepreneurs</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <p>Every month they moved their money the old way – which wasted their time and money. So they
-                        invented a beautifully simple workaround that became a billion-dollar business.</p>
+                    <h2>Easy, fee-free loans for entrepreneurs</h2>
+                    <p>Devis was born out of the desire for success. This mutual helping community was developed to help the young and fragile ones in the society to enable them raise funds quickly and succeed in their business. Over the years we have grown to become a large community based on mutual trust for 
+                    individual, small and medium enterprise. Our success since founded can be attributed to the effors of the members of the devis community, who work arround the clock to keep the community florishing.
+                      .</p>
+                    <p>We are a global brand, but we are commited to helping everyone survive, especiaally people in Africa and Asia. Since inception, we have completed ober 1 Million tranactions and counting. We believe that we can help each other survive in our respective hustle both small and large business enterprise alike</p>
                 </div>
             </div>
 
@@ -46,7 +44,7 @@
 <!-- End About Area -->
 
 <!-- Start Team Area -->
-<section class="team-area ptb-70 bg-f7fafd">
+<!-- <section class="team-area ptb-70 bg-f7fafd">
     <div class="container">
         <div class="section-title">
             <h2>Meet our team</h2>
@@ -141,7 +139,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Team Area -->
 
 <!-- Start Ready To Talk Area -->

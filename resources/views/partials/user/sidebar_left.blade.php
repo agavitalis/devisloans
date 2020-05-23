@@ -125,7 +125,7 @@
          <a class="logo" href="user_dashboard">
              <div class="logo-element"></div>
              <div class="logo-label">
-                 Luvion Loans
+                 Devis Loans
              </div>
          </a>
      </div>

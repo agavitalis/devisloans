@@ -22,12 +22,13 @@ Route::group(['namespace'=>"User"],function(){
     Route::match(['GET','POST'],'/user_wallet','WalletController@index')->name('user_wallet')->middleware('verified');
     Route::match(['GET','POST'],'/initiate_transaction','InitiateController@index')->name('initiate_transaction')->middleware('verified');
     Route::match(['GET','POST'],'/finalize_transaction','FinalizeController@index')->name('finalize_transaction')->middleware('verified');
+    
+    Route::match(['GET','POST'],'/get_investor_details','FinalizeController@get_investor_details')->name('get_investor_details')->middleware('verified');
     Route::match(['GET','POST'],'/withdraw_by_referal','WalletController@withdraw_by_referal')->name('withdraw_by_referal')->middleware('verified');
 
 
     Route::match(['GET','POST'],'/loan_request','LoanRequestController@index')->name('loan_request')->middleware('verified');
-
-   
+    
     Route::match(['GET','POST'],'/initiate_withdraw','WithdrawController@index')->name('initiate_withdraw')->middleware('verified');
     Route::match(['GET','POST'],'/withdraw_status','WithdrawController@status')->name('withdraw_status')->middleware('verified');
     Route::match(['GET','POST'],'/email_invite','DashboardController@email_invite')->name('email_invite')->middleware('verified');

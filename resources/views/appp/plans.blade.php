@@ -8,7 +8,7 @@
 <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
     <div class="container">
         <div class="page-title-content">
-            <h2>Luvion Loans Plans</h2>
+            <h2>Devis Loans Plans</h2>
             <p>Borderless Plans to choose from</p>
         </div>
     </div>
@@ -22,25 +22,26 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-pricing-box">
                     <div class="pricing-header">
-                        <h3>Basic</h3>
+                        <h3>Freelancer</h3>
                         <p>Get your business up and running</p>
                     </div>
 
                     <div class="price">
-                        $0 <span>/NGN 3,000</span>
+                        $8 <span>/NGN 3,000</span>
                     </div>
 
                     <div class="buy-btn">
-                        <a href="#" class="btn btn-primary">Choose this plan</a>
+                        <a href="/register" class="btn btn-primary">Choose this plan</a>
                     </div>
 
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 100 outgoing transfers/mo</li>
-                        <li><i class="fas fa-check"></i> 5 Luvion Users </li>
-                        <li><i class="fas fa-check"></i> 2 Business Mastercards</li>
+                        <li><i class="fas fa-check"></i> 100% Returns</li>
+                        <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
+                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
-                        <li><i class="fas fa-check"></i> International payments</li>
-                        <li><i class="fas fa-check"></i> Accounting integrations</li>
+                        <li><i class="fas fa-check"></i> Local Bank Payments</li>
+                        
                     </ul>
                 </div>
             </div>
@@ -48,25 +49,25 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-pricing-box">
                     <div class="pricing-header">
-                        <h3>Advanced</h3>
+                        <h3>Householder</h3>
                         <p>Get your business up and running</p>
                     </div>
 
                     <div class="price">
-                        $12 <span>/NGN 7,000</span>
+                        $19 <span>/NGN 7,000</span>
                     </div>
 
                     <div class="buy-btn">
-                        <a href="#" class="btn btn-primary">Choose this plan</a>
+                        <a href="/register" class="btn btn-primary">Choose this plan</a>
                     </div>
 
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 100 outgoing transfers/mo</li>
-                        <li><i class="fas fa-check"></i> 5 Luvion Users </li>
-                        <li><i class="fas fa-check"></i> 2 Business Mastercards</li>
+                    <li><i class="fas fa-check"></i> 100% Returns</li>
+                        <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
+                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
-                        <li><i class="fas fa-check"></i> International payments</li>
-                        <li><i class="fas fa-check"></i> Accounting integrations</li>
+                        <li><i class="fas fa-check"></i> Local Bank Payments</li>
                     </ul>
                 </div>
             </div>
@@ -74,50 +75,51 @@
             <div class="col-lg-3 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                 <div class="single-pricing-box">
                     <div class="pricing-header">
-                        <h3>Premium</h3>
+                        <h3>Business</h3>
                         <p>Get your business up and running</p>
                     </div>
 
                     <div class="price">
-                        $24 <span>/NGN 15,000</span>
+                        $39 <span>/NGN 15,000</span>
                     </div>
 
                     <div class="buy-btn">
-                        <a href="#" class="btn btn-primary">Choose this plan</a>
+                        <a href="/register" class="btn btn-primary">Choose this plan</a>
                     </div>
 
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 100 outgoing transfers/mo</li>
-                        <li><i class="fas fa-check"></i> 5 Luvion Users </li>
-                        <li><i class="fas fa-check"></i> 2 Business Mastercards</li>
+                    <li><i class="fas fa-check"></i> 100% Returns</li>
+                        <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
+                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
-                        <li><i class="fas fa-check"></i> International payments</li>
-                        <li><i class="fas fa-check"></i> Accounting integrations</li>
+                        <li><i class="fas fa-check"></i> Local Bank Payments</li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                 <div class="single-pricing-box">
                     <div class="pricing-header">
-                        <h3>Diamond</h3>
+                        <h3>Enterprise</h3>
                         <p>Get your business up and running</p>
                     </div>
 
                     <div class="price">
-                        $24 <span>/NGN 30,000</span>
+                        $80 <span>/NGN 30,000</span>
                     </div>
 
                     <div class="buy-btn">
-                        <a href="#" class="btn btn-primary">Choose this plan</a>
+                        <a href="/register" class="btn btn-primary">Choose this plan</a>
                     </div>
 
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 100 outgoing transfers/mo</li>
-                        <li><i class="fas fa-check"></i> 5 Luvion Users </li>
-                        <li><i class="fas fa-check"></i> 2 Business Mastercards</li>
+                    <li><i class="fas fa-check"></i> 100% Returns</li>
+                        <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
+                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
-                        <li><i class="fas fa-check"></i> International payments</li>
-                        <li><i class="fas fa-check"></i> Accounting integrations</li>
+                        <li><i class="fas fa-check"></i> Local Bank Payments</li>
+                        <li><i class="fas fa-check"></i> Bitcoin Payments Options</li>
                     </ul>
                 </div>
             </div>
@@ -126,16 +128,5 @@
 </section>
 <!-- End Pricing Area -->
 
-<!-- Start Account Create Area -->
-<section class="account-create-area">
-    <div class="container">
-        <div class="account-create-content">
-            <h2>Apply for an account in minutes</h2>
-            <p>Get your Luvion account today!</p>
-            <a href="#" class="btn btn-primary">Get Your Luvion Account</a>
-        </div>
-    </div>
-</section>
-<!-- End Account Create Area -->
 
 @endsection

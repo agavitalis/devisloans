@@ -28,7 +28,7 @@
                                 <a href="index.html"><img src="frontend/img/black-logo.png" alt="image"></a>
                             </div>
 
-                            <h3>Open up your Luvion Account now</h3>
+                            <h3>Open up your Devis Account now</h3>
                             <p>Already signed up? <a href="/login">Log in</a></p>
 
                             <form action="{{ route('register') }}" method="POST">

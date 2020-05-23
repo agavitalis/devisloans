@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Elife|Dashboard</title>
+    <title>Devisloans|Dashboard</title>
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta content="template language" name="keywords">
-    <meta content="Elife Series" name="author">
-    <meta content="Elife Series Admin" name="description">
+    <meta content="Devisloans" name="author">
+    <meta content="Devisloans Dashboard" name="description">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="favicon.png" rel="shortcut icon">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">

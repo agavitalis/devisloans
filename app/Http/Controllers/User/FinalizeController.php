@@ -67,4 +67,14 @@ class FinalizeController extends Controller
 
         return $new_name;
     }
+
+    public function get_investor_details(Request $request){
+
+        //get the assumed
+        $investor_details = DB::table('users')->where(['email' => $request->email])
+        ->join('portfolios', 'portfolios.user_id', '=', 'users.id')
+        ->select('portfolios.*','users.*')->first();
+        
+        return response()->json(array("details"=>$investor_details));
+    }
 }

@@ -30,8 +30,8 @@
                         <table id="dataTableM" width="100%" class="table table-striped table-lightfont">
                             <thead>
                                 <tr>
-                                    <th>Lend Code</th>
-                                    <th>Name</th>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
                                     <th>Email</th>
                                     <th>Package</th>
                                     <th>Amount</th>
@@ -42,8 +42,8 @@
                             </thead>
                             <tfoot>
                                 <tr>
-                                    <th>Lend Code</th>
-                                    <th>Name</th>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
                                     <th>Email</th>
                                     <th>Package</th>
                                     <th>Amount</th>
@@ -56,8 +56,9 @@
 
                                 @foreach($investors as $investor)
                                 <tr>
-                                    <td>{{$investor->lend_code}} </td>
-                                    <td>{{$investor->first_name}} {{$investor->last_name}} </td>
+                                   
+                                    <td>{{$investor->first_name}}</td>
+                                    <td> {{$investor->last_name}} </td>
                                     <td>{{$investor->email}}</td>
 
                                     <td>{{$investor->series_name}}</td>

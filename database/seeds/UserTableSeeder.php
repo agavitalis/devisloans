@@ -67,8 +67,5 @@ class UserTableSeeder extends Seeder
             'email_verified_at'=>"2019-09-07 08:42:38"
         ]);
 
-        // DB::table('referral_bonuses')->insert([
-        //     'bonus' => "5",
-        // ]);
     }
 }

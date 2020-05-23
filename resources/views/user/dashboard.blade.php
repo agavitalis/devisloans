@@ -196,7 +196,7 @@
                     <div class="post-box">
 
                         <div class="value">
-                            https://elifeseries.com/register?referral={{Auth::user()->email}}
+                            https://devisloans.com/register?referral={{Auth::user()->email}}
                         </div>
                     </div>
 

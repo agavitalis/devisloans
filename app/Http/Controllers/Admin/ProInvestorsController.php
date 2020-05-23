@@ -93,8 +93,26 @@ class ProInvestorsController extends Controller
                 //get the pro-investor and details of the series
                 InvestorMatch::create(['investor' => $request->borrower_id, 'pro_investor' => $request->lender_id,
                     'amount' => $request->amount]);
+
+                //check if the investor and proinvestor are fully marched
+                $check_pro_investor = ProInvestor::where(['id'=>$request->lender_id])->first();               
+                $pro_investor_amount = InvestorMatch::where('pro_investor', $request->lender_id)->pluck('amount')->sum();
+               
+                if($pro_investor_amount >= $check_pro_investor->amount){
+                    ProInvestor::where(['id'=>$request->lender_id])->update(['fully_matched'=>1]);
+                }
+  
+
+                $investor = Investor::where(['id'=>$request->borrower_id])->first();
                 
-                    return back()->with('success','Borrower and Lender Maped');
+                $investor_amount = InvestorMatch::where('investor', $request->borrower_id)->pluck('amount')->sum();
+    
+                if($investor_amount >= $investor->withdrawable_bal){
+                    Investor::where(['id'=>$request->borrower_id])->update(['fully_merged'=>1]);
+                }
+
+                
+                return back()->with('success','Borrower and Lender Maped');
 
             } catch (Exception $e) {
 

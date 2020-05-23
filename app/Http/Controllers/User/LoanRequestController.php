@@ -48,7 +48,7 @@ class LoanRequestController extends Controller
         }else if($request->isMethod('POST') && $request->action == "confirm-payment"){
 
             //get the pro-investor and details of the series
-            $investor = ProInvestor::where('pro_investors.id', $request->payment_id)
+            $investor = ProInvestor::where('pro_investors.id', $request->pro_investor)
             ->join('series', 'pro_investors.series', '=', 'series.id')
             ->select( 'series.*','pro_investors.*')->first();
 
@@ -79,7 +79,7 @@ class LoanRequestController extends Controller
                 Referre::create(['email'=>$user->referral,'bonus'=>$referral_bonus,'referral_paid_count'=>1]);
             }else{
 
-                //update the record of the previous guy
+                //just update his records
                 $referre = Referre::where(['email'=>$user->referral])->first();
                 $new_bonus = $referre->bonus + $referral_bonus;
                 $new_count = $referre->referral_paid_count + 1;
@@ -87,7 +87,23 @@ class LoanRequestController extends Controller
             }
 
             //then delete thee guy from pro-investor
-            ProInvestor::where('id', $request->payment_id)->delete();
+            ProInvestor::where('id', $request->pro_investor)->delete();
+
+            //update this payment and check if this investor has received all his payments
+            InvestorMatch::where(['investor'=>$request->investor, 'pro_investor'=>$request->pro_investor])->update(['status'=>1]);
+            $investor = Investor::where('id', $request->investor)->first();
+
+            if($investor->fully_merged == 1){
+
+                //check if he has received all his payments
+                $amount_paid = InvestorMatch::where(['investor'=> $request->investor, "status"=>1])->pluck('amount')->sum();
+                if($amount_paid >= $investor->withdrawable_bal ){
+
+                    InvestorMatch::where('investor', $request->investor)->delete();
+                    Investor::where('id', $request->investor)->delete();
+                }
+
+            }
 
             return back()->with('success', 'Investor Successfully Upgraded');
 
