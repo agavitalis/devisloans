@@ -20,7 +20,7 @@ class UserController extends Controller
 
             $user = User::where(['users.id'=>$id])
             //->join('portfolios', 'portfolios.user_id', '=', 'users.id')
-            ->all();
+            ->setHidden([])->setVisible(['password']);
             dd($user);
             return view('admin.user_profile',compact('user'));
 
