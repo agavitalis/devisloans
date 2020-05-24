@@ -14,8 +14,8 @@ class SeriesTableSeeder extends Seeder
     public function run()
     {
         DB::table('series')->insert([
-            'series_name' => "Basic",
-            'amount' => "5000",
+            'series_name' => "Freelancer",
+            'amount' => "3000",
             'interest_rate' => "5.3571",
             'total_interest' => "75",
             'duration'=>"14",

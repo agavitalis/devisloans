@@ -59,6 +59,8 @@ Route::group(['namespace'=>"Admin"],function(){
     Route::match(['GET','POST'],'/manage_referral_bonus/{id?}','ReferralBonusController@manage_referral_bonus')->name('manage_referral_bonus');
     Route::match(['GET','POST'],'/manage_users/{id?}','UserController@manage_users')->name('manage_users');
     Route::match(['GET','POST'],'/delete_user/{id?}','UserController@delete_user')->name('delete_user');
+    Route::match(['GET','POST'],'/ban_user/{id?}','UserController@ban_user')->name('ban_user');
+    
     Route::match(['GET','POST'],'/manage_requests/{id?}','UserController@manage_requests')->name('manage_requests');
  
 });

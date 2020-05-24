@@ -20,7 +20,8 @@ class UserController extends Controller
 
             $user = User::where(['users.id'=>$id])
             ->join('portfolios', 'portfolios.user_id', '=', 'users.id')
-            ->first();
+            ->all();
+            dd($user);
             return view('admin.user_profile',compact('user'));
 
         }
@@ -48,6 +49,32 @@ class UserController extends Controller
     public function delete_user(Request $request){
 
         User::where(['id'=>$request->id])->delete();
+        return back()->with('success','User successfully deleted');
+      
+    }
+
+    public function ban_user(Request $request){
+
+        $user = User::where(['id'=>$request->id])->first();
+
+        //get the pro investor and investor
+        $pro_investor = ProInvestor::where(["user"=>$user->id])->first();
+
+        //update all those matched
+        $investor_matchs = InvestorMatch::where(["pro_investor"=>$pro_investor->id])->get();
+        foreach($investor_matchs as $match){
+            Investor::find($match->investor)->update(["fully_merged"=>0]);
+        }
+
+        //get the matching
+        $investor_match = InvestorMatch::where(["pro_investor"=>$pro_investor->id])->first();
+        InvestorMatch::find($investor_match->id)->delete();
+
+        ProInvestor::where(["user"=>$user->id])->delete();
+        Investor::where(["user"=>$user->id])->delete();
+        //ban the user
+        User::where(['id'=>$request->id])->update(["is_banned"=>1]);
+
         return back()->with('success','User successfully deleted');
       
     }

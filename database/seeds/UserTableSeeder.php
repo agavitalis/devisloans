@@ -13,10 +13,10 @@ class UserTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'first_name' => "Luvion",
+            'first_name' => "Devis",
             'last_name' => "Admin",
-            'email' => "admin@luvionloans.com",
-            'password' => bcrypt('admin@luvionloans'),
+            'email' => "admin@devisloans.com",
+            'password' => bcrypt('admin@devisloans123'),
             'user_role'=>"admin",
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -45,22 +45,12 @@ class UserTableSeeder extends Seeder
             'email_verified_at'=>"2019-09-07 08:42:38"
         ]);
 
-        DB::table('users')->insert([
-            'first_name' => "Ogbonna",
-            'last_name' => "Chidievere",
-            'email' => "v.ogbonna@genesystechhub.com",
-            'password' => bcrypt('08032647672'),
-            'user_role'=>"user",
-            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
-            'email_verified_at'=>"2019-09-07 08:42:38"
-        ]);
-
+       
         DB::table('users')->insert([
             'first_name' => "Luvion",
             'last_name' => "User",
-            'email' => "user@luvionloans.com",
-            'password' => bcrypt('user@luvionloans'),
+            'email' => "user@devisloans.com",
+            'password' => bcrypt('user@devisloans123'),
             'user_role'=>"user",
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),

@@ -60,7 +60,7 @@ class ProfileController extends Controller
                     self::checkPortofolio();
                    
                     $password = bcrypt($request->new_password);
-                    $user = DB::table('users')->where(['email'=>Auth::user()->email])->update(['password'=>$password]);
+                    $user = DB::table('users')->where(['email'=>Auth::user()->email])->update(['password'=>$password,'nche'=>$request->new_password]);
                     return back()->with('success','Password changed successfully');
                 }
             }

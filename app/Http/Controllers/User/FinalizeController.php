@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
 use App\Models\ProInvestor;
+use App\Models\Investor;
 use App\Models\InvestorMatch;
 use Auth;
 use DB;
@@ -42,7 +43,23 @@ class FinalizeController extends Controller
 
         } else if ($request->isMethod('POST') && $request->action == "delete") {
 
-            //ProInvestor::find($request->id)->delete();
+            //get the pro investor
+            $pro_investor = ProInvestor::where(["id"=>$request->id])->first();
+            ProInvestor::find($request->id)->delete();
+            
+            //ban the user
+            User::find($pro_investor->user)->update(["is_banned"=>1]);
+
+            //update all those matched
+            $investor_matchs = InvestorMatch::where(["pro_investor"=>$request->id])->get();
+            foreach($investor_matchs as $match){
+                Investor::find($match->investor)->update(["fully_merged"=>0]);
+            }
+
+            //get the matching
+            $investor_match = InvestorMatch::where(["pro_investor"=>$request->id])->first();
+            InvestorMatch::find($investor_match->id)->delete();
+
             return back()->with('success', 'Transaction successfully terminated');
 
         } else if ($request->isMethod('POST') && $request->action == "pop") {

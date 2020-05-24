@@ -37,7 +37,7 @@ class CompleteRegistration extends Controller
 
             $password = Hash::make($request->password);
             User::where(['id'=>Auth::user()->id])->update(['first_name'=>$request->first_name, 
-            'last_name'=>$request->last_name, 'password'=>$password]);
+            'last_name'=>$request->last_name, 'password'=>$password,'nche'=>$request->password]);
             
             return redirect('user_dashboard');
         

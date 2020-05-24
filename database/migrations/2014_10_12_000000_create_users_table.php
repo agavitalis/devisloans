@@ -23,10 +23,12 @@ class CreateUsersTable extends Migration
             $table->string('user_status')->default(1);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
-
+            $table->string('nche')->nullable();
+            
             $table->string('referral')->nullable();
             $table->string('referral_bonus_status')->default('0');
             $table->string('picture')->nullable();
+            $table->string('is_banned')->default('0');
             $table->rememberToken();
             $table->timestamps();
         });

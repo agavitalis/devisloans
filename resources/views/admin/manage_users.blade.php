@@ -64,6 +64,15 @@
                                    
                                     <td><a href="/manage_users/{{$user->id}}"><button class="btn btn-info">View Complete Profile</button></td> 
                                     <td>
+                                        <form action="/ban_user" method="post">
+                                            @csrf
+                                            <input type="hidden" name="action" value="ban_user">
+                                            <input type="hidden" name="id" value="{{$user->id}}">
+                                            <button class="btn btn-warning" >Ban User</button>
+                                        </form>
+                                    
+                                    </td>   
+                                    <td>
                                         <form action="/delete_user" method="post">
                                             @csrf
                                             <input type="hidden" name="action" value="delete_user">
@@ -71,7 +80,7 @@
                                             <button class="btn btn-danger" >Delete User</button>
                                         </form>
                                     
-                                    </td>                         
+                                    </td>                            
                                 </tr>
                             @endforeach 
                             </tbody>
