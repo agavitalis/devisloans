@@ -58,7 +58,7 @@
                             <div class="col-sm-8 b-r b-b">
                                 <div class="el-tablo centered padded-v">
                                     <div class="value">
-                                        NGN{{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
+                                        N{{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
                                     </div>
                                     <div class="label">
                                         Amount Borrowed
