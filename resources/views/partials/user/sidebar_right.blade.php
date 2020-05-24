@@ -35,7 +35,7 @@
                                 <input class="form-control" id="amount" placeholder="Amount..." type="text" value="100">
                                 <div class="input-group-append">
                                     <div class="input-group-text">
-                                        USD
+                                        NGN
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="col-12 text-center">
                     <label class="hidden" id="result">
-                        <h4 id="amount_total">$455.00</h4>
+                        <h4 id="amount_total">NGN455.00</h4>
                         <p id="mainten_total">4.5% maintenance charge included</p>
                     </label>
                     </div>

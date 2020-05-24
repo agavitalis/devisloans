@@ -26,7 +26,7 @@
                                     Amount Loned
                                 </div>
                                 <div class="value">
-                                    ${{ isset($investor->amount_invested)? round($investor->amount_invested,2) : "0.00"}}
+                                    NGN{{ isset($investor->amount_invested)? round($investor->amount_invested,2) : "0.00"}}
                                 </div>
                                 <div class="trending trending-up">
                                     <i class="os-icon os-icon-wallet-loaded"></i>
@@ -39,7 +39,7 @@
                                     ROI
                                 </div>
                                 <div class="value">
-                                    ${{ isset($roi)? round($roi,2): "0.00"}}
+                                    NGN{{ isset($roi)? round($roi,2): "0.00"}}
                                 </div>
                                 <div class="trending trending-up">
                                     <span>7.32%</span><i class="os-icon os-icon-charts-stats-up"></i>
@@ -76,13 +76,13 @@
                                 <tr>
                                     <td>
                                         <div class="value">
-                                            Amount Traded
+                                            Amount Borrowed
                                         </div>
 
                                     </td>
                                     <td class="text-right">
                                         <div class="value">
-                                            ${{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
+                                            NGN{{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
                                         </div>
 
                                     </td>
@@ -96,7 +96,7 @@
                                     </td>
                                     <td class="text-right">
                                         <div class="value">
-                                            ${{ isset($roi)? round($roi,2) : "0.00"}}
+                                            NGN{{ isset($roi)? round($roi,2) : "0.00"}}
                                         </div>
 
                                     </td>
@@ -110,7 +110,7 @@
                                     </td>
                                     <td class="text-right">
                                         <div class="value text-success">
-                                        ${{ isset($referral_bonus->bonus)? round($referral_bonus->bonus,2): "0.00"}}
+                                        NGN{{ isset($referral_bonus->bonus)? round($referral_bonus->bonus,2): "0.00"}}
                 
                                         </div>
 
@@ -125,7 +125,7 @@
                                     </td>
                                     <td class="text-right">
                                         <div class="value">
-                                            ${{ isset($balance_total)? round($balance_total,2) : "0.00"}}
+                                            NGN{{ isset($balance_total)? round($balance_total,2) : "0.00"}}
                                         </div>
 
                                     </td>
@@ -140,7 +140,7 @@
                                     </td>
                                     <td class="text-right">
                                         <div class="value">
-                                            ${{ isset($balance_withdrawable)? round($balance_withdrawable,2) : "0.00"}}
+                                            NGN{{ isset($balance_withdrawable)? round($balance_withdrawable,2) : "0.00"}}
                                         </div>
 
                                     </td>

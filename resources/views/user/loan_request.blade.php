@@ -71,7 +71,7 @@
                                         @endphp
                                     
                                     </td>
-                                    <td><button class="btn btn-sm btn-info view_pop" data-image="storage/uploads/{{$match->evidence}}" >View</button></td>
+                                    <td><button class="btn btn-sm btn-info view_pop" data-image="public/storage/uploads/{{$match->evidence}}" >View</button></td>
                                     <td><button class="btn btn-sm btn-danger confirm_payment" data-investor="{{$match->investor}}" data-pro_investor="{{$match->pro_investor}}">Confirm</button></td>
                                 </tr>
                             @endforeach 

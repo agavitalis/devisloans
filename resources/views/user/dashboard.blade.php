@@ -22,7 +22,7 @@
                 </li>
                 <div class="avatar-w">
                     <img alt=""
-                        src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "dashboard/img/avatar1.jpg"}}'
+                        src='{{(Auth::user()->picture != null)? "public/storage/uploads/".Auth::user()->picture : "dashboard/img/avatar1.jpg"}}'
                         height='70px' width='70px' style="border-radius:35px">
                 </div>
 
@@ -41,7 +41,7 @@
                         Your Loan Balance
                     </div>
                     <div class="balance-value">
-                        <span class="d-xxl-none">${{ isset($balance_total)? round($balance_total,2) : "0.00"}}</span>
+                        <span class="d-xxl-none">NGN{{ isset($balance_total)? round($balance_total,2) : "0.00"}}</span>
                     </div>
                 </div>
                 <div class="balance-table pl-sm-2">
@@ -129,10 +129,10 @@
         <div class="col-6 col-sm-3 col-xxl-2">
             <a class="element-box el-tablo centered trend-in-corner smaller" href="#">
                 <div class="label">
-                    Trading Amount
+                    Amount Borrowed
                 </div>
                 <div class="value">
-                    ${{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
+                    NGN{{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
                 </div>
                 <div class="trending trending-up">
                     <i class="os-icon os-icon-wallet-loaded"></i>
@@ -146,7 +146,7 @@
                 </div>
                 <div class="value">
 
-                    ${{ isset($roi)? number_format((float)$roi,2,'.',''): "0.00"}}
+                    NGN{{ isset($roi)? number_format((float)$roi,2,'.',''): "0.00"}}
                 </div>
                 <div class="trending trending-up">
                     <span>2.50%</span><i class="os-icon os-icon-charts-stats-up"></i>
@@ -172,7 +172,7 @@
                     Referral Bonus
                 </div>
                 <div class="value text-danger">
-                    ${{ isset($referral_bonus->bonus)? number_format((float)$referral_bonus->bonus,2,'.',''): "0.00"}}
+                    NGN{{ isset($referral_bonus->bonus)? number_format((float)$referral_bonus->bonus,2,'.',''): "0.00"}}
 
                 </div>
                 <div class="trending trending-down">

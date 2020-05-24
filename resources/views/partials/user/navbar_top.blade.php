@@ -34,7 +34,7 @@
                     <li>
                         <a href="#">
                             <div class="user-avatar-w">
-                             <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
+                             <img alt="" src='{{(Auth::user()->picture != null)? "public/storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
                             </div>
                             <div class="message-content">
                                 <h6 class="message-from">
@@ -84,12 +84,12 @@
         <div class="logged-user-w">
             <div class="logged-user-i">
                 <div class="avatar-w">
-                    <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
+                    <img alt="" src='{{(Auth::user()->picture != null)? "public/storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
                 </div>
                 <div class="logged-user-menu color-style-bright">
                     <div class="logged-user-avatar-info">
                         <div class="avatar-w">
-                            <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
+                            <img alt="" src='{{(Auth::user()->picture != null)? "public/storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
                         </div>
                         <div class="logged-user-info-w">
                             <div class="logged-user-name">
