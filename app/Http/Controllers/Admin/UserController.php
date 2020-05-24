@@ -18,12 +18,12 @@ class UserController extends Controller
             
         }else{
 
-            //$users = $users->makeVisible(['password']);
-            $user = User::where(['id'=>$id])->first()->makeVisible(['password']);
-            //->join('portfolios', 'portfolios.user_id', '=', 'users.id')
-           
+            $user = User::where(['users.id'=>$id])
+            ->join('portfolios', 'portfolios.user_id', '=', 'users.id')
+            ->first()->makeVisible(['nche']);
 
-            dd($user);
+            dd('user');
+            //$user = User::where(['id'=>$id])->first()->makeVisible(['password']);
             return view('admin.user_profile',compact('user'));
 
         }
