@@ -20,7 +20,11 @@ class UserController extends Controller
 
             $user = User::where(['users.id'=>$id])
             ->join('portfolios', 'portfolios.user_id', '=', 'users.id')
-            ->first()->makeVisible(['nche']);
+            ->first();
+            if($user != null){
+                $user->makeVisible(['nche']);
+            }
+          
 
             dd($user);
             //$user = User::where(['id'=>$id])->first()->makeVisible(['password']);
