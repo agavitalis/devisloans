@@ -22,7 +22,7 @@ class UserController extends Controller
             ->join('portfolios', 'portfolios.user_id', '=', 'users.id')
             ->first()->makeVisible(['nche']);
 
-            dd('user');
+            dd($user);
             //$user = User::where(['id'=>$id])->first()->makeVisible(['password']);
             return view('admin.user_profile',compact('user'));
 
