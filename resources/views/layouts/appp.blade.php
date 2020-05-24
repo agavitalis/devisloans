@@ -68,7 +68,7 @@
 
 
                         @auth
-                        @if(Auth::user()->user_type == "user")
+                        @if(Auth::user()->user_role == "user")
 
                         <div class="others-options"> <a href="/user_dashboard" class="login-btn"><i
                                     class="flaticon-user"></i> Dashboard</a> </div>
