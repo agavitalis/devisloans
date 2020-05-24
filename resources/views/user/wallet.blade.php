@@ -224,7 +224,7 @@
                 </span><span class="os-icon os-icon-close"></span></button>
             <div class="onboarding-side-by-side">
                 <div class="onboarding-media">
-                    <img alt="" src="dashboard/img/logo4.png" width="200px">
+                    <img alt="" src="public/dashboard/img/logo4.png" width="200px">
                 </div>
                 <!-- Payment Options -->
                 <div class="options-modal hidden onboarding-content with-gradient">
@@ -336,7 +336,7 @@
 
 @section('scripts')
 
-<script src="{{asset('dashboard/myscripts/user/user_wallet.js')}}"></script>
+<script src="{{asset('public/dashboard/myscripts/user/user_wallet.js')}}"></script>
 <script>
 var deadline = new Date(
         "{{isset($investor->date_cashout)? $investor->date_cashout :Auth::user()->created_at->format('M d, Y H:i:s')}}")

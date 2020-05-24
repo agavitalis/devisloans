@@ -109,7 +109,7 @@
                         </span><span class="os-icon os-icon-close"></span></button>
                 <div class="onboarding-side-by-side">
                     <div class="onboarding-media">
-                        <img alt="" src="dashboard/img/logo4.png" width="200px">
+                        <img alt="" src="public/dashboard/img/logo4.png" width="200px">
                     </div>
                                     
                     <!-- Mark as paid model -->
@@ -160,5 +160,5 @@
 </div>
 @endsection
 @section('scripts')
-    <script src="{{asset('dashboard/myscripts/admin/withdrawal_request.js')}}"></script>
+    <script src="{{asset('public/dashboard/myscripts/admin/withdrawal_request.js')}}"></script>
 @endsection

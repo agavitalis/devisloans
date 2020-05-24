@@ -92,7 +92,7 @@
                         </span><span class="os-icon os-icon-close"></span></button>
                 <div class="onboarding-side-by-side">
                     <div class="onboarding-media">
-                        <img alt="" src="dashboard/img/logo4.png" width="200px">
+                        <img alt="" src="public/dashboard/img/logo4.png" width="200px">
                     </div>
                     <!-- POP Confirmation modal -->
                     <div class="pop-modal hidden onboarding-content with-gradient">
@@ -158,5 +158,5 @@
 </div>
 @endsection
 @section('scripts')
-    <script src="{{asset('dashboard/myscripts/user/finalize_transaction.js')}}"></script>
+    <script src="{{asset('public/dashboard/myscripts/user/finalize_transaction.js')}}"></script>
 @endsection

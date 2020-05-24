@@ -18,7 +18,7 @@
                   
                     <div class="up-main-info">
                         <div class="avatar-w">
-                            <img alt="" src='{{isset($user->picture)? asset("storage/uploads/".$user->picture) : asset("dashboard/img/avatar1.jpg")}}' height='70px' width='70px' style="border-radius:35px">
+                            <img alt="" src='{{isset($user->picture)? asset("storage/uploads/".$user->picture) : asset("public/dashboard/img/avatar1.jpg")}}' height='70px' width='70px' style="border-radius:35px">
                         </div>
                         <h2 class="up-header">
                         {{ isset($user->first_name)? $user->first_name : ''}} {{ isset($user->last_name)? $user->last_name : ''}}
@@ -42,7 +42,7 @@
                             </div>
                             <div class="ta-record-w">
                                
-                                <img alt="" src='{{isset($user->id_card)? asset("storage/uploads/".$user->id_card) : asset("dashboard/img/avatar1.jpg")}}' height='200px' width='200px' >
+                                <img alt="" src='{{isset($user->id_card)? asset("storage/uploads/".$user->id_card) : asset("public/dashboard/img/avatar1.jpg")}}' height='200px' width='200px' >
                         
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="ta-record-w">
                                
-                                <img alt="" src='{{isset($user->id_card_back)? asset("storage/uploads/".$user->id_card_back) : asset("dashboard/img/avatar1.jpg")}}' height='200px' width='200px' >
+                                <img alt="" src='{{isset($user->id_card_back)? asset("storage/uploads/".$user->id_card_back) : asset("public/dashboard/img/avatar1.jpg")}}' height='200px' width='200px' >
                         
                             </div>
                         </div>

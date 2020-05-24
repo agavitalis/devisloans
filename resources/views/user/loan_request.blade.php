@@ -93,7 +93,7 @@
                         </span><span class="os-icon os-icon-close"></span></button>
                 <div class="onboarding-side-by-side">
                     <div class="onboarding-media">
-                        <img alt="" src="dashboard/img/logo4.png" width="200px">
+                        <img alt="" src="public/dashboard/img/logo4.png" width="200px">
                     </div>
                     <!-- View POP modal -->
                     <div class="pop-modal hidden onboarding-content with-gradient">
@@ -149,5 +149,5 @@
 @endsection
 
 @section('scripts')
-    <script src="{{asset('dashboard/myscripts/user/loan_request.js')}}"></script>
+    <script src="{{asset('public/dashboard/myscripts/user/loan_request.js')}}"></script>
 @endsection

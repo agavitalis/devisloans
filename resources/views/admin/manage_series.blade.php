@@ -208,5 +208,5 @@
 </div>
 @endsection
 @section('scripts')
-    <script src="{{asset('dashboard/myscripts/admin/manage_series.js')}}"></script>
+    <script src="{{asset('public/dashboard/myscripts/admin/manage_series.js')}}"></script>
 @endsection
