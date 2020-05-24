@@ -24,7 +24,7 @@
                             {{Auth::user()->first_name}} {{Auth::user()->last_name}}
                         </h2>
                         <h6 class="up-sub-header">
-                            Elife Investor
+                            Devis Participant
                         </h6>
                     </div>
                     <svg class="decor" width="842px" height="219px" viewBox="0 0 842 219"
@@ -45,7 +45,7 @@
                                     Status:
                                 </div>
                                 <div class="value badge badge-pill badge-success">
-                                    Investor
+                                    Member
                                 </div>
                             </div>
                         </div>
@@ -58,10 +58,10 @@
                             <div class="col-sm-8 b-r b-b">
                                 <div class="el-tablo centered padded-v">
                                     <div class="value">
-                                        ${{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
+                                        NGN{{ isset($investor->amount_invested)? $investor->amount_invested : "0.00"}}
                                     </div>
                                     <div class="label">
-                                        Amount Traded
+                                        Amount Borrowed
                                     </div>
                                 </div>
                             </div>
