@@ -3,7 +3,7 @@
         -------------------->
  <div class="menu-mobile menu-activated-on-click color-scheme-dark">
      <div class="mm-logo-buttons-w">
-         <a class="mm-logo" href="/user_dashboard"><img src="dashboard/img/logo.png"><span></span></a>
+         <a class="mm-logo" href="/user_dashboard"><img src="public/dashboard/img/logo.png"><span></span></a>
          <div class="mm-buttons">
              <div class="content-panel-open">
                  <div class="os-icon os-icon-grid-circles"></div>
@@ -16,7 +16,7 @@
      <div class="menu-and-user">
          <div class="logged-user-w">
              <div class="avatar-w">
-                 <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
+                 <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
              </div>
              <div class="logged-user-info-w">
                  <div class="logged-user-name">
@@ -132,7 +132,7 @@
      <div class="logged-user-w avatar-inline">
          <div class="logged-user-i">
              <div class="avatar-w">
-                  <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
+                  <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
              </div>
              <div class="logged-user-info-w">
                  <div class="logged-user-name">
@@ -148,7 +148,7 @@
              <div class="logged-user-menu color-style-bright">
                  <div class="logged-user-avatar-info">
                      <div class="avatar-w">
-                          <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
+                          <img alt="" src='{{(Auth::user()->picture != null)? "storage/uploads/".Auth::user()->picture : "public/dashboard/img/avatar1.jpg"}}' height='150px' width='150px'>
                      </div>
                      <div class="logged-user-info-w">
                          <div class="logged-user-name">

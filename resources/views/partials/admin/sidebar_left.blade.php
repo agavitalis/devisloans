@@ -3,7 +3,7 @@
         -------------------->
         <div class="menu-mobile menu-activated-on-click color-scheme-dark">
      <div class="mm-logo-buttons-w">
-         <a class="mm-logo" href="#"><img src="dashboard/img/logo.png"><span>Devis Dashboard</span></a>
+         <a class="mm-logo" href="#"><img src="public/dashboard/img/logo.png"><span>Devis Dashboard</span></a>
          <div class="mm-buttons">
              
              <div class="mobile-menu-trigger">
@@ -14,7 +14,7 @@
      <div class="menu-and-user">
          <div class="logged-user-w">
              <div class="avatar-w">
-                 <img alt="" src="dashboard/img/avatar1.jpg">
+                 <img alt="" src="public/dashboard/img/avatar1.jpg">
              </div>
              <div class="logged-user-info-w">
                  <div class="logged-user-name">
@@ -171,7 +171,7 @@
      <div class="logged-user-w avatar-inline">
          <div class="logged-user-i">
              <div class="avatar-w">
-                 <img alt="" src="dashboard/img/avatar1.jpg">
+                 <img alt="" src="public/dashboard/img/avatar1.jpg">
              </div>
              <div class="logged-user-info-w">
                  <div class="logged-user-name">
@@ -187,7 +187,7 @@
              <div class="logged-user-menu color-style-bright">
                  <div class="logged-user-avatar-info">
                      <div class="avatar-w">
-                         <img alt="" src="dashboard/img/avatar1.jpg">
+                         <img alt="" src="public/dashboard/img/avatar1.jpg">
                      </div>
                      <div class="logged-user-info-w">
                          <div class="logged-user-name">

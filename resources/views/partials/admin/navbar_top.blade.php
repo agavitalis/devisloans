@@ -2,7 +2,7 @@
     <div class="fancy-selector-w">
         <div class="fancy-selector-current">
             <div class="fs-img">
-                <img alt="" src="dashboard/img/logo.png">
+                <img alt="" src="public/dashboard/img/logo.png">
             </div>
             <div class="fs-main-info">
                 <div class="fs-name">
@@ -84,12 +84,12 @@
         <div class="logged-user-w">
             <div class="logged-user-i">
                 <div class="avatar-w">
-                    <img alt="" src="dashboard/img/avatar1.jpg">
+                    <img alt="" src="public/dashboard/img/avatar1.jpg">
                 </div>
                 <div class="logged-user-menu color-style-bright">
                     <div class="logged-user-avatar-info">
                         <div class="avatar-w">
-                            <img alt="" src="dashboard/img/avatar1.jpg">
+                            <img alt="" src="public/dashboard/img/avatar1.jpg">
                         </div>
                         <div class="logged-user-info-w">
                             <div class="logged-user-name">
