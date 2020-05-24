@@ -25,7 +25,7 @@
                     <p>Some of the frequently asked questions on the Devis Community which also serves as our Terms and Conditions.</p>
 
                     <div class="faq-image">
-                        <img src="frontend/img/faq.png" alt="image">
+                        <img src="public/frontend/img/faq.png" alt="image">
                     </div>
                 </div>
             </div>

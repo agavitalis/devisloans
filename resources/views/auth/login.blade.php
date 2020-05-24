@@ -7,7 +7,7 @@
             <div class="row m-0">
                 <div class="col-lg-6 col-md-12 p-0">
                     <div class="login-image">
-                        <img src="frontend/img/login-bg.jpg" alt="image">
+                        <img src="public/frontend/img/login-bg.jpg" alt="image">
                     </div>
                 </div>
 
@@ -17,7 +17,7 @@
                             <div class="d-table-cell">
                                 <div class="login-form">
                                     <div class="logo">
-                                        <a href="index.html"><img src="frontend/img/black-logo.png" alt="image"></a>
+                                        <a href="index.html"><img src="public/frontend/img/black-logo.png" alt="image"></a>
                                     </div>
 
                                     <h3>Welcome back</h3>

@@ -32,7 +32,7 @@
 
             <div class="col-lg-6 col-md-12">
                 <div class="about-image">
-                    <img src="frontend/img/about-img1.jpg" alt="image">
+                    <img src="public/frontend/img/about-img1.jpg" alt="image">
 
                     <a href="https://www.youtube.com/watch?v=bk7McNUjWgw" class="video-btn popup-youtube"><i
                             class="fas fa-play"></i></a>
@@ -57,7 +57,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="frontend/img/team-img1.jpg" alt="image">
+                        <img src="public/frontend/img/team-img1.jpg" alt="image">
 
                         <ul class="social">
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -78,7 +78,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="frontend/img/team-img2.jpg" alt="image">
+                        <img src="public/frontend/img/team-img2.jpg" alt="image">
 
                         <ul class="social">
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -99,7 +99,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="frontend/img/team-img3.jpg" alt="image">
+                        <img src="public/frontend/img/team-img3.jpg" alt="image">
 
                         <ul class="social">
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -120,7 +120,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="frontend/img/team-img4.jpg" alt="image">
+                        <img src="public/frontend/img/team-img4.jpg" alt="image">
 
                         <ul class="social">
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -165,127 +165,127 @@
             <div class="row align-items-center">
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-1.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover1.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-1.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover1.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-2.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover2.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-2.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover2.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-3.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover3.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-3.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover3.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-4.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover4.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-4.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover4.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-5.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover5.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-5.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover5.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-6.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover6.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-6.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover6.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-7.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover7.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-7.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover7.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-8.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover8.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-8.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover8.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-9.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover9.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-9.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover9.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-10.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover10.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-10.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover10.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-11.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover11.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-11.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover11.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-12.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover12.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-12.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover12.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-13.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover13.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-13.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover13.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-14.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover14.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-14.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover14.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-15.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover15.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-15.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover15.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-16.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover16.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-16.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover16.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-17.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover17.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-17.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover17.png" alt="partner">
                     </a>
                 </div>
 
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                     <a href="#">
-                        <img src="frontend/img/partner-image/partner-18.png" alt="partner">
-                        <img src="frontend/img/partner-image/partner-hover18.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-18.png" alt="partner">
+                        <img src="public/frontend/img/partner-image/partner-hover18.png" alt="partner">
                     </a>
                 </div>
             </div>
@@ -301,17 +301,17 @@
             <div class="col-lg-6 col-md-12">
                 <div class="app-image">
                     <div class="main-image">
-                        <img src="frontend/img/mobile-app1.png" class="wow fadeInLeft" data-wow-delay="0.6s"
+                        <img src="public/frontend/img/mobile-app1.png" class="wow fadeInLeft" data-wow-delay="0.6s"
                             alt="image">
-                        <img src="frontend/img/mobile-app2.png" class="wow fadeInUp" data-wow-delay="0.9s" alt="image">
+                        <img src="public/frontend/img/mobile-app2.png" class="wow fadeInUp" data-wow-delay="0.9s" alt="image">
                     </div>
 
                     <div class="main-mobile-image">
-                        <img src="frontend/img/main-mobile.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+                        <img src="public/frontend/img/main-mobile.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
                     </div>
 
                     <div class="circle-img">
-                        <img src="frontend/img/circle.png" alt="image">
+                        <img src="public/frontend/img/circle.png" alt="image">
                     </div>
                 </div>
             </div>

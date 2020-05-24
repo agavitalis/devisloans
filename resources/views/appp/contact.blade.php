@@ -115,7 +115,7 @@
         </div>
     </div>
 
-    <div class="bg-map"><img src="frontend/img/bg-map.png" alt="image"></div>
+    <div class="bg-map"><img src="public/frontend/img/bg-map.png" alt="image"></div>
 </section>
 <!-- End Contact Area -->
 

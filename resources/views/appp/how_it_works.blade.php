@@ -38,10 +38,10 @@
 
             <div class="overview-image">
                 <div class="image">
-                    <img src="frontend/img/1.png" alt="image">
+                    <img src="public/frontend/img/1.png" alt="image">
 
                     <div class="circle-img">
-                        <img src="frontend/img/circle.png" alt="image">
+                        <img src="public/frontend/img/circle.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -56,10 +56,10 @@
         <div class="overview-box">
             <div class="overview-image">
                 <div class="image">
-                    <img src="frontend/img/2.png" alt="image">
+                    <img src="public/frontend/img/2.png" alt="image">
 
                     <div class="circle-img">
-                        <img src="frontend/img/circle.png" alt="image">
+                        <img src="public/frontend/img/circle.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -107,10 +107,10 @@
 
             <div class="overview-image">
                 <div class="image">
-                    <img src="frontend/img/3.png" alt="image">
+                    <img src="public/frontend/img/3.png" alt="image">
 
                     <div class="circle-img">
-                        <img src="frontend/img/circle.png" alt="image">
+                        <img src="public/frontend/img/circle.png" alt="image">
                     </div>
                 </div>
             </div>

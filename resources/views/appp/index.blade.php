@@ -102,41 +102,41 @@
         </div>
         <div class=row>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/1.png" alt=image>
+                <div class=single-how-it-works> <img src="public/frontend/img/how-it-works-image/1.png" alt=image>
                     <h3>1. Register for free</h3>
                     <p>Sign up to DevisLoans for free and use your referral link to invite your friends.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/2.png" alt=image>
+                <div class=single-how-it-works> <img src="public/frontend/img/how-it-works-image/2.png" alt=image>
                     <h3>2. Choose an amount to Lend</h3>
                     <p>To be eligible to receive loans in Devis, Choose a plan from our avaliable plans and lead to a
                         borrower.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/3.png" alt=image>
+                <div class=single-how-it-works> <img src="public/frontend/img/how-it-works-image/3.png" alt=image>
                     <h3>3. Credit recipient’s bank account</h3>
                     <p>Pay the borrower matched the sum displayed in your dashboard and get him to confirm your payment
                     </p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/4.png" alt=image>
+                <div class=single-how-it-works> <img src="public/frontend/img/how-it-works-image/4.png" alt=image>
                     <h3>4. Request a loan after 14 days</h3>
                     <p>You can request for loans immediately your refer 5 people, who are active or after a maturity
                         period of 14days.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/5.png" alt=image>
+                <div class=single-how-it-works> <img src="public/frontend/img/how-it-works-image/5.png" alt=image>
                     <h3>5. Receive an alert form a lender</h3>
                     <p>Upon loan request, you will be give a lender, who will borrow you the amount requested in a jiffy
                     </p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/6.png" alt=image>
+                <div class=single-how-it-works> <img src="public/frontend/img/how-it-works-image/6.png" alt=image>
                     <h3>6. That’s it</h3>
                     <p>You can earn loan credits just by referring your friends, as you earn 5% of any transaction they
                         made</p>
@@ -165,7 +165,7 @@
                 </div>
             </div>
             <div class=overview-image>
-                <div class=image> <img src="frontend/img/4.jpg" alt=image> </div>
+                <div class=image> <img src="public/frontend/img/4.jpg" alt=image> </div>
             </div>
         </div>
     </div>
@@ -174,8 +174,8 @@
     <div class="container-fluid p-0">
         <div class=overview-box>
             <div class=overview-image>
-                <div class=image> <img src="frontend/img/5.png" alt=image>
-                    <div class=circle-img> <img src="frontend/img/circle.png" alt=image> </div>
+                <div class=image> <img src="public/frontend/img/5.png" alt=image>
+                    <div class=circle-img> <img src="public/frontend/img/circle.png" alt=image> </div>
                 </div>
             </div>
             <div class=overview-content>
@@ -217,7 +217,7 @@
                 </div>
             </div>
             <div class=overview-image>
-                <div class=image> <img src="frontend/img/6.jpg" alt=image> </div>
+                <div class=image> <img src="public/frontend/img/6.jpg" alt=image> </div>
             </div>
         </div>
     </div>
@@ -340,7 +340,7 @@
                 </div>
             </div>
             <div class="col-lg-7 col-md-12">
-                <div class=features-image> <img src="frontend/img/features-img1.png" alt=image> </div>
+                <div class=features-image> <img src="public/frontend/img/features-img1.png" alt=image> </div>
             </div>
         </div>
     </div>
@@ -359,16 +359,16 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class=invoicing-image>
-                    <div class=main-image> <img src="frontend/img/invoicing-image/1.png" class="wow zoomIn"
-                            data-wow-delay=0.7s alt=image> <img src="frontend/img/invoicing-image/2.png"
+                    <div class=main-image> <img src="public/frontend/img/invoicing-image/1.png" class="wow zoomIn"
+                            data-wow-delay=0.7s alt=image> <img src="public/frontend/img/invoicing-image/2.png"
                             class="wow fadeInLeft" data-wow-delay=1s alt=image> <img
-                            src="frontend/img/invoicing-image/3.png" class="wow fadeInLeft" data-wow-delay=1.3s
-                            alt=image> <img src="frontend/img/invoicing-image/4.png" class="wow fadeInRight"
+                            src="public/frontend/img/invoicing-image/3.png" class="wow fadeInLeft" data-wow-delay=1.3s
+                            alt=image> <img src="public/frontend/img/invoicing-image/4.png" class="wow fadeInRight"
                             data-wow-delay=1s alt=image> </div>
-                    <div class=main-mobile-image> <img src="frontend/img/invoicing-image/main-pic.png"
+                    <div class=main-mobile-image> <img src="public/frontend/img/invoicing-image/main-pic.png"
                             class="wow zoomIn" data-wow-delay=0.7s alt=image> </div>
-                    <div class=circle-image> <img src="frontend/img/invoicing-image/circle1.png" alt=image> <img
-                            src="frontend/img/invoicing-image/circle2.png" alt=image> </div>
+                    <div class=circle-image> <img src="public/frontend/img/invoicing-image/circle1.png" alt=image> <img
+                            src="public/frontend/img/invoicing-image/circle2.png" alt=image> </div>
                 </div>
             </div>
         </div>
@@ -411,7 +411,7 @@
             <h3>Have any question about us?</h3>
             <p>Don't hesitate to contact us</p><a href="/contact" class="btn btn-primary">Contact Us</a>
         </div>
-        <div class=map-bg><img src="frontend/img/map.png" alt=map></div>
+        <div class=map-bg><img src="public/frontend/img/map.png" alt=map></div>
     </div>
 </section>
 <section class="feedback-area ptb-70 bg-f7fafd">
@@ -426,7 +426,7 @@
                 <div>
                     <div class=item>
                         <div class=single-feedback>
-                            <div class=client-img><img src="frontend/img/client-image/1.jpg" alt=image></div>
+                            <div class=client-img><img src="public/frontend/img/client-image/1.jpg" alt=image></div>
                             <h3>Oluwatosin Ayade</h3><span>Trader</span>
                             <p>The best and most rewarding online loans I have seen, guaranteeing absolute peace of
                                 mind.</p>
@@ -434,7 +434,7 @@
                     </div>
                     <div class=item>
                         <div class=single-feedback>
-                            <div class=client-img><img src="frontend/img/client-image/2.jpg" alt=image></div>
+                            <div class=client-img><img src="public/frontend/img/client-image/2.jpg" alt=image></div>
                             <h3>Ajayi Tar</h3><span>Worker</span>
                             <p>Devisloans community is the best.. I just referred 5 persons and I was completely paid
                                 the same day</p>
@@ -442,7 +442,7 @@
                     </div>
                     <div class=item>
                         <div class=single-feedback>
-                            <div class=client-img><img src="frontend/img/client-image/3.jpg" alt=image></div>
+                            <div class=client-img><img src="public/frontend/img/client-image/3.jpg" alt=image></div>
                             <h3>Ugwoke Emma</h3><span>Business Anaylst</span>
                             <p>When I discovered Devis Loans, I be no believe am.. but that limp of faith don change
                                 alot.</p>
@@ -450,7 +450,7 @@
                     </div>
                     <div class=item>
                         <div class=single-feedback>
-                            <div class=client-img><img src="frontend/img/client-image/4.jpg" alt=image></div>
+                            <div class=client-img><img src="public/frontend/img/client-image/4.jpg" alt=image></div>
                             <h3>Rik Emmanuel</h3><span>Student</span>
                             <p>Devis community is simply the best.</p>
                         </div>
@@ -458,7 +458,7 @@
 
                     <div class=item>
                         <div class=single-feedback>
-                            <div class=client-img><img src="frontend/img/client-image/1.jpg" alt=image></div>
+                            <div class=client-img><img src="public/frontend/img/client-image/1.jpg" alt=image></div>
                             <h3>Steven Smith</h3><span>Enginner</span>
                             <p>I reluctantly tried out Devis, and to my greatest surprise, it has all ended in smiles.
                             </p>
@@ -470,28 +470,28 @@
             <div class=client-thumbnails>
                 <div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/1.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/1.jpg" alt=client></div>
                     </div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/2.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/2.jpg" alt=client></div>
                     </div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/3.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/3.jpg" alt=client></div>
                     </div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/4.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/4.jpg" alt=client></div>
                     </div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/5.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/5.jpg" alt=client></div>
                     </div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/1.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/1.jpg" alt=client></div>
                     </div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/2.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/2.jpg" alt=client></div>
                     </div>
                     <div class=item>
-                        <div class=img-fill><img src="frontend/img/client-image/3.jpg" alt=client></div>
+                        <div class=img-fill><img src="public/frontend/img/client-image/3.jpg" alt=client></div>
                     </div>
                 </div><button class="prev-arrow slick-arrow"><i class="fas fa-arrow-left"></i></button><button
                     class="next-arrow slick-arrow"><i class="fas fa-arrow-right"></i></button>
@@ -514,41 +514,41 @@
         <div class=partner-inner>
             <div class="row align-items-center">
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-7.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover7.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-7.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover7.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-8.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover8.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-8.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover8.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-9.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover9.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-9.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover9.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-10.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover10.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-10.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover10.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-11.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover11.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-11.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover11.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-12.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover12.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-12.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover12.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-13.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover13.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-13.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover13.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-14.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover14.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-14.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover14.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-15.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover15.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-15.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover15.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-16.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover16.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-16.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover16.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-17.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover17.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-17.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover17.png" alt=partner></a></div>
                 <div class="col-lg-2 col-sm-4 col-md-3 col-6"><a href="#"><img
-                            src="frontend/img/partner-image/partner-18.png" alt=partner><img
-                            src="frontend/img/partner-image/partner-hover18.png" alt=partner></a></div>
+                            src="public/frontend/img/partner-image/partner-18.png" alt=partner><img
+                            src="public/frontend/img/partner-image/partner-hover18.png" alt=partner></a></div>
             </div>
         </div>
     </div>
@@ -558,12 +558,12 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class=app-image>
-                    <div class=main-image> <img src="frontend/img/mobile-app1.png" class="wow fadeInLeft"
-                            data-wow-delay=0.6s alt=image> <img src="frontend/img/mobile-app2.png" class="wow fadeInUp"
+                    <div class=main-image> <img src="public/frontend/img/mobile-app1.png" class="wow fadeInLeft"
+                            data-wow-delay=0.6s alt=image> <img src="public/frontend/img/mobile-app2.png" class="wow fadeInUp"
                             data-wow-delay=0.9s alt=image> </div>
-                    <div class=main-mobile-image> <img src="frontend/img/main-mobile.png" class="wow fadeInUp"
+                    <div class=main-mobile-image> <img src="public/frontend/img/main-mobile.png" class="wow fadeInUp"
                             data-wow-delay=0.6s alt=image> </div>
-                    <div class=circle-img> <img src="frontend/img/circle.png" alt=image> </div>
+                    <div class=circle-img> <img src="public/frontend/img/circle.png" alt=image> </div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
