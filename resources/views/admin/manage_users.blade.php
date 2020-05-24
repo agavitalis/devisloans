@@ -38,6 +38,7 @@
                                     <th>referral</th>
                                     <th>Joined On</th>    
                                     <th>View Profile</th>
+                                    <th>Ban User</th>
                                     <th>Delete User</th>
                                 </tr>
                             </thead>
@@ -49,6 +50,7 @@
                                     <th>referral</th> 
                                     <th>Joined On</th>  
                                     <th>View Profile</th>
+                                    <th>Ban User</th>
                                     <th>Delete User</th>
                                 </tr>
                             </tfoot>

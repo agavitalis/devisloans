@@ -19,7 +19,7 @@ class UserController extends Controller
         }else{
 
             $user = User::where(['users.id'=>$id])
-            ->join('portfolios', 'portfolios.user_id', '=', 'users.id')
+            //->join('portfolios', 'portfolios.user_id', '=', 'users.id')
             ->all();
             dd($user);
             return view('admin.user_profile',compact('user'));
