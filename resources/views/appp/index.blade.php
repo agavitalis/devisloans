@@ -427,7 +427,7 @@
                     <div class=item>
                         <div class=single-feedback>
                             <div class=client-img><img src="public/frontend/img/client-image/1.jpg" alt=image></div>
-                            <h3>Oluwatosin Ayade</h3><span>Trader</span>
+                            <h3>Oluwatosin Ayade</h3><span>Analyst</span>
                             <p>The best and most rewarding online loans I have seen, guaranteeing absolute peace of
                                 mind.</p>
                         </div>
@@ -451,14 +451,14 @@
                     <div class=item>
                         <div class=single-feedback>
                             <div class=client-img><img src="public/frontend/img/client-image/4.jpg" alt=image></div>
-                            <h3>Rik Emmanuel</h3><span>Student</span>
+                            <h3>Rik Emmanuel</h3><span>Industralist</span>
                             <p>Devis community is simply the best.</p>
                         </div>
                     </div>
 
                     <div class=item>
                         <div class=single-feedback>
-                            <div class=client-img><img src="public/frontend/img/client-image/1.jpg" alt=image></div>
+                            <div class=client-img><img src="public/frontend/img/client-image/5.jpg" alt=image></div>
                             <h3>Steven Smith</h3><span>Enginner</span>
                             <p>I reluctantly tried out Devis, and to my greatest surprise, it has all ended in smiles.
                             </p>

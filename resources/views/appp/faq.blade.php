@@ -72,10 +72,10 @@
                         <li class="accordion-item">
                             <a class="accordion-title" href="javascript:void(0)">
                                 <i class="fas fa-plus"></i>
-                               Who are active participants in the Devis Community
+                               Who are active participants in the Devis Community?
                             </a>
 
-                            <p class="accordion-content">Active participants are participants who have subscriped to a devis plan, and have paid a borrower, who have confirmed his payments</p>
+                            <p class="accordion-content">Active participants are participants who have subscribed to a devis plan, and have paid a borrower, who have confirmed his payments</p>
                         </li>
 
                         <li class="accordion-item">

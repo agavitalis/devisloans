@@ -33,7 +33,7 @@
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <span>Address</span>
-                            CA 560 Bush St & 20th Ave, Apt 5 San Francisco, 230909, Canada
+                            27 Division St, New York, NY 10002, USA
                         </li>
 
                         <li>
@@ -50,8 +50,8 @@
                                 <i class="fas fa-phone-volume"></i>
                             </div>
                             <span>Phone</span>
-                            <a href="#">+44 587 154756</a>
-                            <a href="#">+55 5555 14574</a>
+                            <a href="#">+ (321) 984 754</a>
+                            <a href="#">+1-212-9876543</a>
                         </li>
                     </ul>
                 </div>
@@ -119,16 +119,5 @@
 </section>
 <!-- End Contact Area -->
 
-<!-- Start Account Create Area -->
-<section class="account-create-area">
-    <div class="container">
-        <div class="account-create-content">
-            <h2>Apply for an account in minutes</h2>
-            <p>Get your Luvion account today!</p>
-            <a href="#" class="btn btn-primary">Get Your Luvion Account</a>
-        </div>
-    </div>
-</section>
-<!-- End Account Create Area -->
 
 @endsection
