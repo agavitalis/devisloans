@@ -105,7 +105,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="">Your POP</label>
-                                        <input class="form-control" type="file" name="pop">
+                                        <input class="form-control" type="file" name="pop" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
