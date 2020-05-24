@@ -24,7 +24,7 @@
                         {{ isset($user->first_name)? $user->first_name : ''}} {{ isset($user->last_name)? $user->last_name : ''}}
                         </h2>
                         <h6 class="up-sub-header">
-                            Elife Investor
+                            Devis  Participant
                         </h6>
                     </div>
                 </div>
@@ -121,6 +121,14 @@
                                     <label for="">Email</label><input class="form-control" readonly
                                         placeholder="Email Address"  readonly type="email"
                                         value="{{ isset($user->email)? $user->email : ''}}">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="">Password</label><input class="form-control" readonly
+                                        placeholder="Password"  readonly type="text"
+                                        value="{{ isset($user->nche)? $user->nche : ''}}">
                                 </div>
                             </div>
                         </div>
