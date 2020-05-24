@@ -7,6 +7,7 @@
     <!-- Bootstrap Min CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}">
     <!-- Animate Min CSS -->
+    <link rel="stylesheet" href="{{asset('frontend/css/animate.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/css/animate.min.css')}}">
     <!-- Font Awesome Min CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/fontawesome.min.css')}}">
