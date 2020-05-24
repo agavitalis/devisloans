@@ -198,5 +198,5 @@
 @endsection
 
 @section('scripts')
-<script src="{{asset('dashboard/myscripts/user/finalize_transaction.js')}}"></script>
+<script src="{{asset('public/dashboard/myscripts/user/finalize_transaction.js')}}"></script>
 @endsection

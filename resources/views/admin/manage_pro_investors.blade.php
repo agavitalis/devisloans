@@ -179,5 +179,5 @@
 </div>
 @endsection
 @section('scripts')
-<script src="{{asset('dashboard/myscripts/admin/manage_pro_investors.js')}}"></script>
+<script src="{{asset('public/dashboard/myscripts/admin/manage_pro_investors.js')}}"></script>
 @endsection
