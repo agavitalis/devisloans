@@ -85,7 +85,7 @@
                         Hello {{Auth::user()->first_name}}
                     </div>
                     <h5 class="cta-header">
-                        Welcome to Elife Admin End, How is are you doing?
+                        Welcome to Devisloans Admin End, How is are you doing?
                     </h5>
                     
                 </div>
