@@ -60,24 +60,24 @@
                     <div class=single-featured-box>
                         <div class="icon color-fb7756"> <i class=flaticon-piggy-bank></i> </div>
                         <h3>Transparent Lending</h3>
-                        <p>Automatic lending based on your efforts and contributions to the community.</p><a
-                            href="/faq" class=read-more-btn>Read More</a>
+                        <p>Automatic lending based on your efforts and contributions to the community.</p><a href="/faq"
+                            class=read-more-btn>Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                     <div class=single-featured-box>
                         <div class="icon color-facd60"> <i class=flaticon-data-encryption></i> </div>
                         <h3>Fully Encrypted</h3>
-                        <p>All transactions within our system and community are fully encrypted. We respect privacy </p><a
-                            href="/faq" class=read-more-btn>Read More</a>
+                        <p>All transactions within our system and community are fully encrypted. We respect privacy </p>
+                        <a href="/faq" class=read-more-btn>Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                     <div class=single-featured-box>
                         <div class="icon color-1ac0c6"> <i class=flaticon-wallet></i> </div>
                         <h3>Instant Withdrawal</h3>
-                        <p>All loan requests are granted automatically once the borrower meeets the community standards.</p><a
-                            href="/faq" class=read-more-btn>Read More</a>
+                        <p>All loan requests are granted automatically once the borrower meeets the community standards.
+                        </p><a href="/faq" class=read-more-btn>Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 p-0">
@@ -97,7 +97,8 @@
         <div class=section-title>
             <h2>How Devis Works</h2>
             <div class=bar></div>
-            <p>To better understand DevisLoans Community and how it works, follow the chart below  for a brief operational overview.</p>
+            <p>To better understand DevisLoans Community and how it works, follow the chart below for a brief
+                operational overview.</p>
         </div>
         <div class=row>
             <div class="col-lg-4 col-sm-6 col-md-6">
@@ -109,31 +110,36 @@
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/2.png" alt=image>
                     <h3>2. Choose an amount to Lend</h3>
-                    <p>To be eligible to receive loans in Devis, Choose a plan from our avaliable plans and lead to a borrower.</p>
+                    <p>To be eligible to receive loans in Devis, Choose a plan from our avaliable plans and lead to a
+                        borrower.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/3.png" alt=image>
                     <h3>3. Credit recipient’s bank account</h3>
-                    <p>Pay the borrower matched the sum displayed in your dashboard and get him to confirm your payment</p>
+                    <p>Pay the borrower matched the sum displayed in your dashboard and get him to confirm your payment
+                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/4.png" alt=image>
                     <h3>4. Request a loan after 14 days</h3>
-                    <p>You can request for loans immediately your refer 5 people, who are active or after a maturity period of 14days.</p>
+                    <p>You can request for loans immediately your refer 5 people, who are active or after a maturity
+                        period of 14days.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/5.png" alt=image>
                     <h3>5. Receive an alert form a lender</h3>
-                    <p>Upon loan request, you will be give a lender, who will borrow you the amount requested in a jiffy</p>
+                    <p>Upon loan request, you will be give a lender, who will borrow you the amount requested in a jiffy
+                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class=single-how-it-works> <img src="frontend/img/how-it-works-image/6.png" alt=image>
                     <h3>6. That’s it</h3>
-                    <p>You can earn loan credits just by referring your friends, as you earn 5% of any transaction they made</p>
+                    <p>You can earn loan credits just by referring your friends, as you earn 5% of any transaction they
+                        made</p>
                 </div>
             </div>
         </div>
@@ -146,7 +152,8 @@
                 <div class="content left-content"> <span class=sub-title>Fast & Easy Online Loans</span>
                     <h2>Freelancers, entrepreneurs, and sole traders</h2>
                     <div class=bar></div>
-                    <p>We ensure that we help ourselves and succeed together especially this during this trying time.</p>
+                    <p>We ensure that we help ourselves and succeed together especially this during this trying time.
+                    </p>
                     <ul class=features-list>
                         <li><span><i class=flaticon-check-mark></i> Free plan available</span></li>
                         <li><span><i class=flaticon-check-mark></i> Full data privacy compliance</span></li>
@@ -175,7 +182,8 @@
                 <div class=content> <span class=sub-title>Tax Free</span>
                     <h2>Small- to medium-sized businesses</h2>
                     <div class=bar></div>
-                    <p>Our loans are tax free. Hence you earn more than what you see in the regular financial institutions.</p>
+                    <p>Our loans are tax free. Hence you earn more than what you see in the regular financial
+                        institutions.</p>
                     <ul class=features-list>
                         <li><span><i class=flaticon-check-mark></i> Easy transfers</span></li>
                         <li><span><i class=flaticon-check-mark></i> Deposit checks instantly</span></li>
@@ -196,7 +204,8 @@
                 <div class="content left-content"> <span class=sub-title>Price Transparency</span>
                     <h2>Large or enterprise level businesses</h2>
                     <div class=bar></div>
-                    <p>Devisloans is designed to help small and large level businesses scale qucikly by helping them raise soft capitals.</p>
+                    <p>Devisloans is designed to help small and large level businesses scale qucikly by helping them
+                        raise soft capitals.</p>
                     <ul class=features-list>
                         <li><span><i class=flaticon-check-mark></i> Corporate Cards</span></li>
                         <li><span><i class=flaticon-check-mark></i> International Payments</span></li>
@@ -219,7 +228,8 @@
         <div class=section-title>
             <h2>Compare Devis Plans</h2>
             <div class=bar></div>
-            <p>See our DevisLoans Lending Plans, and make the choice that suits your institutional, business or private needs.</p>
+            <p>See our DevisLoans Lending Plans, and make the choice that suits your institutional, business or private
+                needs.</p>
         </div>
         <div class="comparisons-table table-responsive">
             <table class=table>
@@ -254,7 +264,7 @@
                         <td><i class=flaticon-check-mark></i></td>
                         <td><i class=flaticon-check-mark></i></td>
                     </tr>
-                  
+
                     <tr>
                         <td>Deposit tagging</td>
                         <td><i class=flaticon-check-mark></i></td>
@@ -286,7 +296,8 @@
         <div class=section-title>
             <h2>Our Features</h2>
             <div class=bar></div>
-            <p>Devis was developed on some of this core features, to provide a long lasting support for businesses and enterprise.</p>
+            <p>Devis was developed on some of this core features, to provide a long lasting support for businesses and
+                enterprise.</p>
         </div>
     </div>
     <div class=container-fluid>
@@ -305,21 +316,24 @@
                             <div class=features-box>
                                 <div class="icon bg-f78acb"> <i class=flaticon-envelope-of-white-paper></i> </div>
                                 <h3>Email notifications</h3>
-                                <p>Devis notifies you on the progress of your transactions. we know that communication is vita;.</p>
+                                <p>Devis notifies you on the progress of your transactions. we know that communication
+                                    is vita;.</p>
                             </div>
                         </div>
                         <div class="col-lg-12 col-sm-6 col-md-6">
                             <div class=features-box>
                                 <div class="icon bg-cdf1d8"> <i class=flaticon-menu></i> </div>
                                 <h3>Simple dashboard</h3>
-                                <p>Our dashboard, your small office is greatly simplified to capture all the necessary details at a glance.</p>
+                                <p>Our dashboard, your small office is greatly simplified to capture all the necessary
+                                    details at a glance.</p>
                             </div>
                         </div>
                         <div class="col-lg-12 col-sm-6 col-md-6">
                             <div class=features-box>
                                 <div class="icon bg-c679e3"> <i class=flaticon-info></i> </div>
                                 <h3>Information Security</h3>
-                                <p>We know the need for privacy, hence any information provided to Devis will never be disclosed.</p>
+                                <p>We know the need for privacy, hence any information provided to Devis will never be
+                                    disclosed.</p>
                             </div>
                         </div>
                     </div>
@@ -338,7 +352,9 @@
                 <div class=invoicing-content>
                     <h2>Easy way to get interest free loans and get a better filling at your hustle</h2>
                     <div class=bar></div>
-                    <p>We know the the grind is real. The streets are brutal, and only the strongest survive, hence at Devis, we can optain interest free loans just be helping each other.</p><a href="#" class="btn btn-primary">Get Started</a>
+                    <p>We know the the grind is real. The streets are brutal, and only the strongest survive, hence at
+                        Devis, we can optain interest free loans just be helping each other.</p><a href="#"
+                        class="btn btn-primary">Get Started</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -412,21 +428,24 @@
                         <div class=single-feedback>
                             <div class=client-img><img src="frontend/img/client-image/1.jpg" alt=image></div>
                             <h3>Oluwatosin Ayade</h3><span>Trader</span>
-                            <p>The best and most rewarding online loans I have seen, guaranteeing absolute peace of mind.</p>
+                            <p>The best and most rewarding online loans I have seen, guaranteeing absolute peace of
+                                mind.</p>
                         </div>
                     </div>
                     <div class=item>
                         <div class=single-feedback>
                             <div class=client-img><img src="frontend/img/client-image/2.jpg" alt=image></div>
                             <h3>Ajayi Tar</h3><span>Worker</span>
-                            <p>Devisloans community is the best.. I just referred 5 persons and I was completely paid the same day</p>
+                            <p>Devisloans community is the best.. I just referred 5 persons and I was completely paid
+                                the same day</p>
                         </div>
                     </div>
                     <div class=item>
                         <div class=single-feedback>
                             <div class=client-img><img src="frontend/img/client-image/3.jpg" alt=image></div>
                             <h3>Ugwoke Emma</h3><span>Business Anaylst</span>
-                            <p>When I discovered Devis Loans, I be no believe am.. but that limp of faith don change alot.</p>
+                            <p>When I discovered Devis Loans, I be no believe am.. but that limp of faith don change
+                                alot.</p>
                         </div>
                     </div>
                     <div class=item>
@@ -436,15 +455,16 @@
                             <p>Devis community is simply the best.</p>
                         </div>
                     </div>
-                    
+
                     <div class=item>
                         <div class=single-feedback>
                             <div class=client-img><img src="frontend/img/client-image/1.jpg" alt=image></div>
                             <h3>Steven Smith</h3><span>Enginner</span>
-                            <p>I reluctantly tried out Devis, and to my greatest surprise, it has all ended in smiles.</p>
+                            <p>I reluctantly tried out Devis, and to my greatest surprise, it has all ended in smiles.
+                            </p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <div class=client-thumbnails>
