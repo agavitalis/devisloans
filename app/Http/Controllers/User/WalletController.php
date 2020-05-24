@@ -161,7 +161,7 @@ class WalletController extends Controller
                     //now check to know how many people he has referred
                     $referre_count = Referre::where(['email'=>Auth::user()->email])->first();
                    if(isset($referre_count)){
-                        if($referre_count->referral_paid_count < 5){
+                        if($referre_count->referral_paid_count < 3){
 
                             return response()->json(array('message' =>1));
                         }else{
