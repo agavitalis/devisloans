@@ -53,7 +53,7 @@ class LoanRequestController extends Controller
             ->select( 'series.*','pro_investors.*')->first();
 
             $date_invested = Carbon::now();
-            $date_cashout = Carbon::now()->addDays(13);
+            $date_cashout = Carbon::now()->addDays(6);
 
             //cashout amount calculation
             $roi = $investor->amount * ($investor->total_interest / 100);

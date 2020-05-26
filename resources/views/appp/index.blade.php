@@ -76,7 +76,7 @@
                     <div class=single-featured-box>
                         <div class="icon color-1ac0c6"> <i class=flaticon-wallet></i> </div>
                         <h3>Instant Withdrawal</h3>
-                        <p>All loan requests are granted automatically once the borrower meeets the community standards.
+                        <p>All loan requests are granted automatically once the borrower meets the community standards.
                         </p><a href="/faq" class=read-more-btn>Read More</a>
                     </div>
                 </div>
@@ -123,9 +123,9 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class=single-how-it-works> <img src="public/frontend/img/how-it-works-image/4.png" alt=image>
-                    <h3>4. Request a loan after 14 days</h3>
-                    <p>You can request for loans immediately your refer 5 people, who are active or after a maturity
-                        period of 14days.</p>
+                    <h3>4. Request a loan immediately</h3>
+                    <p>You can request for loans immediately your refer 3  participants, who are active or after a maturity
+                        period of 7 days.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">

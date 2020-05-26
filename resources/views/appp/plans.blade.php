@@ -37,7 +37,7 @@
                     <ul class="pricing-features">
                         <li><i class="fas fa-check"></i> 100% Returns</li>
                         <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
-                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 7 Days Maturity </li>
                         <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
                         <li><i class="fas fa-check"></i> Local Bank Payments</li>
@@ -64,7 +64,7 @@
                     <ul class="pricing-features">
                     <li><i class="fas fa-check"></i> 100% Returns</li>
                         <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
-                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 7 Days Maturity </li>
                         <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
                         <li><i class="fas fa-check"></i> Local Bank Payments</li>
@@ -90,7 +90,7 @@
                     <ul class="pricing-features">
                     <li><i class="fas fa-check"></i> 100% Returns</li>
                         <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
-                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 7 Days Maturity </li>
                         <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
                         <li><i class="fas fa-check"></i> Local Bank Payments</li>
@@ -115,7 +115,7 @@
                     <ul class="pricing-features">
                     <li><i class="fas fa-check"></i> 100% Returns</li>
                         <li><i class="fas fa-check"></i> Instant Withdraws of 3 Active Referrals</li>
-                        <li><i class="fas fa-check"></i> 14 Days Maturity </li>
+                        <li><i class="fas fa-check"></i> 7 Days Maturity </li>
                         <li><i class="fas fa-check"></i> 10% Maintainance Charge </li>
                         <li><i class="fas fa-check"></i> Premium Support</li>
                         <li><i class="fas fa-check"></i> Local Bank Payments</li>

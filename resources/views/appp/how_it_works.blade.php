@@ -68,13 +68,13 @@
                 <div class="content">
                     <h2>After Lending what Happens?</h2>
                     <div class="bar"></div>
-                    <p>All loans given takes a 14day maturity period to mature.These can be made quicker by inviting active participants using your referal links</p>
+                    <p>All loans given stays for a maturity period of 7 days.These can be made quicker by inviting active participants using your referal links</p>
 
                     <ul class="services-list">
-                        <li><span><i class="flaticon-check-mark"></i>Wait for a 14day Maturity period</span></li>
-                        <li><span><i class="flaticon-check-mark"></i>Invite 5 active participants using your link</span></li>
+                        <li><span><i class="flaticon-check-mark"></i>Wait for a 7day Maturity period</span></li>
+                        <li><span><i class="flaticon-check-mark"></i>Or invite 3 active participants using your link</span></li>
                         <li><span><i class="flaticon-check-mark"></i>Earn Credits, per active participant invited</span></li>
-                        <li><span><i class="flaticon-check-mark"></i>Request for a loan once you have referred 5 active participant</span></li>
+                        <li><span><i class="flaticon-check-mark"></i>Request for a loan once you have referred 3 active participant</span></li>
                         <li><span><i class="flaticon-check-mark"></i>Request for a loan once your maturity period elapses</span></li>
                         <li><span><i class="flaticon-check-mark"></i> Share your Joy with your friends</span></li>
                     </ul>
@@ -96,7 +96,7 @@
                     <p>Referring participants in Devis is highly rewarding, It gives you Loan Request rights before maturity and earns you some bonuses.</p>
 
                     <ul class="services-list">
-                        <li><span><i class="flaticon-check-mark"></i> Refer 5 Participants </span></li>
+                        <li><span><i class="flaticon-check-mark"></i> Refer 3 Participants </span></li>
                         <li><span><i class="flaticon-check-mark"></i> Request for Loan before maturity</span></li>
                         <li><span><i class="flaticon-check-mark"></i> Earn extra bonus from your active referral</span></li>
                         <li><span><i class="flaticon-check-mark"></i> Request Withdrawal on bonuses</span></li>

@@ -66,7 +66,7 @@
                                Can I request a loan before maturity?
                             </a>
 
-                            <p class="accordion-content">No, to qualify for loan request before maturity, you must have referred at least 3 participants, whare are active.</p>
+                            <p class="accordion-content">No, to qualify for loan request before maturity, you must have referred at least 3 participants, who are active.</p>
                         </li>
 
                         <li class="accordion-item">
@@ -75,7 +75,7 @@
                                Who are active participants in the Devis Community?
                             </a>
 
-                            <p class="accordion-content">Active participants are participants who have subscribed to a devis plan, and have paid a borrower, who have confirmed his payments</p>
+                            <p class="accordion-content">Active participants are participants who have subscribed to a devis plan, and have paid a borrower, who have confirmed their payments</p>
                         </li>
 
                         <li class="accordion-item">
@@ -171,7 +171,7 @@
                                 Does Devis Platform take responsibility of the funds I borrowed to participants
                             </a>
 
-                            <p class="accordion-content">No, Devisloan(Devis) does NOT take responsibility for any transaction on its platform, all transactions on it's platform are at participant risk .</p>
+                            <p class="accordion-content">No, Devisloan(Devis) does NOT take responsibility for any transaction on its platform, all transactions on it's platform are at participant's risk.</p>
                         </li>
                     </ul>
                 </div>
