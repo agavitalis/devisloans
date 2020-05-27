@@ -8,7 +8,7 @@
     <div class="row m-0">
         <div class="col-lg-6 col-md-12 p-0">
             <div class="signup-image">
-                <img src="frontend/img/signup-bg.jpg" alt="image">
+                <img src="{{asset('public/frontend/img/signup-bg.jpg')}}" alt="image">
             </div>
         </div>
 
@@ -18,7 +18,7 @@
                     <div class="d-table-cell">
                         <div class="signup-form">
                             <div class="logo">
-                                <a href="index.html"><img src="frontend/img/black-logo.png" alt="image"></a>
+                                <a href="index.html"><img src="{{asset('public/frontend/img/black-logo.png')}}" alt="image"></a>
                             </div>
 
                             <h3>Complete Your Registration</h3>

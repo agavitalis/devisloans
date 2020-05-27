@@ -42,8 +42,8 @@
         <div class="luvion-responsive-nav">
             <div class="container">
                 <div class="luvion-responsive-menu">
-                    <div class="logo"> <a href="/"> <img src="public/frontend/img/logo.png" alt="logo"> <img
-                                src="public/frontend/img/black-logo.png" alt="logo"> </a> </div>
+                    <div class="logo"> <a href="/"> <img src="{{asset('public/frontend/img/logo.png')}}" alt="logo"> <img
+                                src="{{asset('public/frontend/img/black-logo.png')}}" alt="logo"> </a> </div>
                 </div>
             </div>
         </div>
