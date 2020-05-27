@@ -16,7 +16,7 @@ class UserTableSeeder extends Seeder
             'first_name' => "Devis",
             'last_name' => "Admin",
             'email' => "admin@devisloans.com",
-            'password' => bcrypt('admin@devisloans123'),
+            'password' => bcrypt('08032647672'),
             'user_role'=>"admin",
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
