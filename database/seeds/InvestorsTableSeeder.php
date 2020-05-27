@@ -18,6 +18,97 @@ class InvestorsTableSeeder extends Seeder
             'series' => "1",
             'date_invested' => Carbon::now()->format('Y-m-d H:i:s'),
             'date_cashout' => Carbon::now()->format('Y-m-d H:i:s'),
+            'amount_invested' => "9000000",
+            'rate' => "2",
+            'roi' => "2",
+            'maintenace_fee' => "2.5",
+            'withdrawable_bal' => "2.5",
+            'cashout_request' => "1",
+            'cashout_mode' => "0",
+            'withdrawable_bal' => "9000000",
+            'fully_merged' => "0",
+            'request_status' => "0",
+           
+        ]);
+
+        DB::table('investors')->insert([
+            'user' => "3",
+            'series' => "1",
+            'date_invested' => Carbon::now()->format('Y-m-d H:i:s'),
+            'date_cashout' => Carbon::now()->format('Y-m-d H:i:s'),
+            'amount_invested' => "9000000",
+            'rate' => "2",
+            'roi' => "2",
+            'maintenace_fee' => "2.5",
+            'withdrawable_bal' => "2.5",
+            'cashout_request' => "1",
+            'cashout_mode' => "0",
+            'withdrawable_bal' => "9000000",
+            'fully_merged' => "0",
+            'request_status' => "0",
+           
+        ]);
+
+        DB::table('investors')->insert([
+            'user' => "4",
+            'series' => "1",
+            'date_invested' => Carbon::now()->format('Y-m-d H:i:s'),
+            'date_cashout' => Carbon::now()->format('Y-m-d H:i:s'),
+            'amount_invested' => "9000000",
+            'rate' => "2",
+            'roi' => "2",
+            'maintenace_fee' => "2.5",
+            'withdrawable_bal' => "2.5",
+            'cashout_request' => "1",
+            'cashout_mode' => "0",
+            'withdrawable_bal' => "9000000",
+            'fully_merged' => "0",
+            'request_status' => "0",
+           
+        ]);
+
+        DB::table('investors')->insert([
+            'user' => "5",
+            'series' => "1",
+            'date_invested' => Carbon::now()->format('Y-m-d H:i:s'),
+            'date_cashout' => Carbon::now()->format('Y-m-d H:i:s'),
+            'amount_invested' => "5000000",
+            'rate' => "2",
+            'roi' => "2",
+            'maintenace_fee' => "2.5",
+            'withdrawable_bal' => "2.5",
+            'cashout_request' => "1",
+            'cashout_mode' => "0",
+            'withdrawable_bal' => "5000000",
+            'fully_merged' => "0",
+            'request_status' => "0",
+           
+        ]);
+
+        DB::table('investors')->insert([
+            'user' => "6",
+            'series' => "1",
+            'date_invested' => Carbon::now()->format('Y-m-d H:i:s'),
+            'date_cashout' => Carbon::now()->format('Y-m-d H:i:s'),
+            'amount_invested' => "1000000",
+            'rate' => "2",
+            'roi' => "2",
+            'maintenace_fee' => "2.5",
+            'withdrawable_bal' => "2.5",
+            'cashout_request' => "1",
+            'cashout_mode' => "0",
+            'withdrawable_bal' => "1000000",
+            'fully_merged' => "0",
+            'request_status' => "0",
+           
+        ]);
+
+
+        DB::table('investors')->insert([
+            'user' => "7",
+            'series' => "1",
+            'date_invested' => Carbon::now()->format('Y-m-d H:i:s'),
+            'date_cashout' => Carbon::now()->format('Y-m-d H:i:s'),
             'amount_invested' => "1000000",
             'rate' => "2",
             'roi' => "2",
@@ -32,7 +123,7 @@ class InvestorsTableSeeder extends Seeder
         ]);
 
         DB::table('investors')->insert([
-            'user' => "3",
+            'user' => "8",
             'series' => "1",
             'date_invested' => Carbon::now()->format('Y-m-d H:i:s'),
             'date_cashout' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -43,7 +134,7 @@ class InvestorsTableSeeder extends Seeder
             'withdrawable_bal' => "2.5",
             'cashout_request' => "1",
             'cashout_mode' => "0",
-            'withdrawable_bal' => "2.5",
+            'withdrawable_bal' => "1000000",
             'fully_merged' => "0",
             'request_status' => "0",
            
