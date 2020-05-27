@@ -21,7 +21,7 @@ class DashboardController extends Controller
     {
         $roi = $balance_total = $diff_days = $balance_withdrawable = 0;
         //get his number of referrals
-        $referral_count = 0;
+         $referral_count = DB::table('users')->where(['referral'=>Auth::user()->email])->count();
 
         //get his investment details
         $investor = DB::table('investors')->where(['user'=>Auth::user()->id,'visibility'=>1])
