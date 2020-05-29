@@ -35,6 +35,7 @@
                                     <th>firstname</th>
                                     <th>lastname</th>
                                     <th>email</th>
+                                    <th>phone</th>
                                     <th>referral</th>
                                     <th>Joined On</th>    
                                     <th>View Profile</th>
@@ -47,6 +48,7 @@
                                     <th>firstname</th>
                                     <th>lastname</th>
                                     <th>email</th>
+                                    <th>phone</th>
                                     <th>referral</th> 
                                     <th>Joined On</th>  
                                     <th>View Profile</th>
@@ -61,6 +63,7 @@
                                     <td>{{$user->first_name}} </td>
                                     <td>{{$user->last_name}} </td>
                                     <td>{{$user->email}}</td>
+                                    <td>{{$user->phone}}</td>
                                     <td>{{$user->referral}}</td>
                                     <td>{{$user->created_at}}</td>
                                    

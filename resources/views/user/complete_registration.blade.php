@@ -61,7 +61,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-6">
                                         <div class="form-group">
                                            
                                             <input id="email" type="email" placeholder="Email Address"
@@ -74,6 +74,21 @@
                                             </span>
                                             @enderror
                                             <div class="pre-icon os-icon os-icon-email-2-at2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                           
+                                            <input id="phone" type="text" placeholder="Valid Phone Number"
+                                                class="form-control @error('phone') is-invalid @enderror" name="phone"
+                                                value="{{Auth::user()->phone}}" required readonly>
+
+                                            @error('phone')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                            <div class="pre-icon os-icon os-icon-phone-2-at2"></div>
                                         </div>
                                     </div>
                                 </div>

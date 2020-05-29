@@ -34,7 +34,7 @@
                                             </div>
                                             @endif
 
-                                            {{ __('Before proceeding, please check your email for a verification link. This may take some time.') }}
+                                            {{ __('Before proceeding, please check your email for a verification link. This may take some time to arrive. Do check your spam folder too,incase it was caught by filters .') }}
 
                                         </div>
 

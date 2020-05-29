@@ -23,6 +23,7 @@ class CompleteRegistration extends Controller
             'first_name' => ['required', 'string', 'max:255'],
             'last_name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email'],
+            'phone' => ['required', 'string',],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
         ]);
     }
@@ -37,7 +38,7 @@ class CompleteRegistration extends Controller
 
             $password = Hash::make($request->password);
             User::where(['id'=>Auth::user()->id])->update(['first_name'=>$request->first_name, 
-            'last_name'=>$request->last_name, 'password'=>$password,'nche'=>$request->password]);
+            'last_name'=>$request->last_name, 'phone'=>$request->phone, 'password'=>$password,'nche'=>$request->password]);
             
             return redirect('user_dashboard');
         
